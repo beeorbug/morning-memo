@@ -1,213 +1,341 @@
 <!DOCTYPE html>
 <html lang="ko">
 <head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width,initial-scale=1.0">
-<title>스타트업 모닝 메모</title>
-<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Noto+Sans+KR:wght@400;500;700;900&display=swap" rel="stylesheet">
-<style>
-:root {
-  --bg: #F0F4F8;
-  --surface: #FFFFFF;
-  --border: #E2E8F0;
-  --text-primary: #0F172A;
-  --text-secondary: #475569;
-  --text-muted: #94A3B8;
-  --shadow: 0 1px 3px rgba(0,0,0,0.06), 0 4px 20px rgba(0,0,0,0.05);
-  --radius: 14px;
-}
-* { box-sizing: border-box; margin: 0; padding: 0; }
-body {
-  font-family: 'Inter', 'Noto Sans KR', sans-serif;
-  background: var(--bg);
-  color: var(--text-primary);
-  min-height: 100vh;
-  -webkit-font-smoothing: antialiased;
-}
-.page-wrap { max-width: 1080px; margin: 0 auto; padding: 48px 24px 80px; }
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>스타트업 모닝 메모</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
+  <style>
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
 
-/* ── Header ── */
-.site-header { margin-bottom: 48px; }
-.header-top { display: flex; align-items: center; justify-content: space-between; flex-wrap: wrap; gap: 12px; margin-bottom: 6px; }
-.logo { display: flex; align-items: center; gap: 10px; }
-.logo-icon { width: 36px; height: 36px; background: linear-gradient(135deg,#2563EB,#7C3AED); border-radius: 9px; display: flex; align-items: center; justify-content: center; font-size: 18px; }
-.logo-text { font-size: 1.3rem; font-weight: 800; letter-spacing: -0.4px; color: var(--text-primary); }
-.header-date { font-size: 0.82rem; color: var(--text-muted); font-weight: 500; }
-.header-tagline { font-size: 0.88rem; color: var(--text-secondary); margin-top: 4px; }
-.header-divider { height: 1px; background: var(--border); margin-top: 20px; }
+    body {
+      font-family: 'Inter', 'Apple SD Gothic Neo', 'Noto Sans KR', sans-serif;
+      background: #F0F4F8;
+      color: #1F2937;
+      min-height: 100vh;
+    }
 
-/* ── Grid ── */
-.grid { display: grid; grid-template-columns: repeat(2, 1fr); gap: 20px; }
-@media (max-width: 700px) { .grid { grid-template-columns: 1fr; } }
-
-/* ── Card ── */
-.card {
-  background: var(--surface);
-  border-radius: var(--radius);
-  box-shadow: var(--shadow);
-  overflow: hidden;
-  display: flex;
-  flex-direction: column;
-  transition: transform 0.18s, box-shadow 0.18s;
-}
-.card:hover { transform: translateY(-2px); box-shadow: 0 4px 6px rgba(0,0,0,0.07), 0 12px 32px rgba(0,0,0,0.08); }
-.card-accent { height: 4px; width: 100%; }
-.card-inner { padding: 22px 22px 18px; flex: 1; display: flex; flex-direction: column; gap: 14px; }
-
-/* Tag + icon row */
-.card-meta { display: flex; align-items: center; justify-content: space-between; }
-.tag-pill { font-size: 11px; font-weight: 700; padding: 3px 10px; border-radius: 20px; letter-spacing: 0.3px; }
-.card-icon { font-size: 22px; line-height: 1; }
-
-/* Headline */
-.card-company { font-size: 11px; font-weight: 600; letter-spacing: 0.8px; text-transform: uppercase; margin-bottom: 4px; }
-.card-headline { font-size: 1rem; font-weight: 700; line-height: 1.45; color: var(--text-primary); letter-spacing: -0.2px; }
-
-/* Summary */
-.card-news { font-size: 0.855rem; line-height: 1.65; color: var(--text-secondary); }
-
-/* Implications */
-.impl-block { background: #F8FAFC; border-radius: 10px; padding: 14px 16px; display: flex; flex-direction: column; gap: 10px; }
-.impl-label { font-size: 11px; font-weight: 700; letter-spacing: 0.5px; color: var(--text-muted); text-transform: uppercase; margin-bottom: 2px; }
-.impl-item { display: flex; gap: 8px; align-items: flex-start; }
-.impl-dot { width: 6px; height: 6px; border-radius: 50%; flex-shrink: 0; margin-top: 5px; }
-.impl-text { font-size: 0.825rem; line-height: 1.55; }
-.impl-main { font-weight: 600; color: var(--text-primary); }
-.impl-detail { color: var(--text-secondary); margin-top: 1px; }
-
-/* Footer */
-.card-footer { padding: 0 22px 18px; display: flex; align-items: center; justify-content: flex-end; }
-.source-badge { font-size: 11px; color: var(--text-muted); font-weight: 500; }
-
-/* ── Archive ── */
-.archive { margin-top: 56px; }
-.archive-title { font-size: 0.78rem; font-weight: 700; letter-spacing: 1px; text-transform: uppercase; color: var(--text-muted); margin-bottom: 14px; }
-.archive-list { display: flex; flex-direction: column; gap: 8px; }
-.archive-row { background: var(--surface); border-radius: 10px; padding: 12px 18px; display: flex; align-items: center; justify-content: space-between; gap: 12px; font-size: 0.85rem; box-shadow: 0 1px 3px rgba(0,0,0,0.04); }
-.archive-date { font-weight: 600; color: var(--text-secondary); flex-shrink: 0; }
-.archive-companies { color: var(--text-muted); font-size: 0.8rem; }
-
-/* ── Empty ── */
-.empty { text-align: center; padding: 80px 20px; color: var(--text-muted); font-size: 1rem; }
-
-/* ── Footer ── */
-.site-footer { text-align: center; margin-top: 60px; font-size: 0.78rem; color: var(--text-muted); letter-spacing: 0.3px; }
-</style>
+    .site-header {
+      background: #FFFFFF;
+      border-bottom: 1px solid #E5E7EB;
+      padding: 28px 24px 24px;
+    }
+    .site-header-inner {
+      max-width: 960px;
+      margin: 0 auto;
+      display: flex;
+      align-items: baseline;
+      gap: 16px;
+      flex-wrap: wrap;
+    }
+    .site-title {
+      font-size: 1.5rem;
+      font-weight: 800;
+      letter-spacing: -0.02em;
+      color: #111827;
+    }
+    .site-title span { color: #2563EB; }
+    .site-date {
+      font-size: 0.85rem;
+      color: #9CA3AF;
+      font-weight: 500;
+      margin-left: auto;
+    }
+    .site-tagline {
+      width: 100%;
+      font-size: 0.8rem;
+      color: #6B7280;
+      margin-top: 2px;
+    }
+    .main {
+      max-width: 960px;
+      margin: 0 auto;
+      padding: 32px 24px 64px;
+    }
+    .date-section { margin-bottom: 28px; }
+    .date-label {
+      display: inline-flex;
+      align-items: center;
+      gap: 8px;
+      font-size: 0.75rem;
+      font-weight: 700;
+      color: #6B7280;
+      text-transform: uppercase;
+      letter-spacing: 0.08em;
+      margin-bottom: 16px;
+    }
+    .date-label::after {
+      content: '';
+      display: block;
+      height: 1px;
+      width: 48px;
+      background: #E5E7EB;
+    }
+    .card-grid {
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      gap: 20px;
+    }
+    @media (max-width: 767px) {
+      .card-grid { grid-template-columns: 1fr; gap: 16px; }
+    }
+    .card {
+      background: #FFFFFF;
+      border-radius: 12px;
+      border-top: 4px solid #2563EB;
+      box-shadow: 0 1px 3px rgba(0,0,0,0.08), 0 4px 16px rgba(0,0,0,0.04);
+      display: flex;
+      flex-direction: column;
+      overflow: hidden;
+      transition: box-shadow 0.15s ease, transform 0.15s ease;
+    }
+    .card:hover {
+      box-shadow: 0 4px 12px rgba(0,0,0,0.10), 0 12px 32px rgba(0,0,0,0.07);
+      transform: translateY(-2px);
+    }
+    .card-top {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      padding: 16px 18px 0;
+    }
+    .tag-pill {
+      display: inline-flex;
+      align-items: center;
+      font-size: 0.7rem;
+      font-weight: 700;
+      padding: 3px 10px;
+      border-radius: 999px;
+      letter-spacing: 0.04em;
+      text-transform: uppercase;
+    }
+    .card-icon { font-size: 1.4rem; line-height: 1; }
+    .card-body { padding: 12px 18px 0; flex: 1; }
+    .card-company {
+      font-size: 0.7rem;
+      font-weight: 600;
+      color: #9CA3AF;
+      text-transform: uppercase;
+      letter-spacing: 0.06em;
+      margin-bottom: 4px;
+    }
+    .card-headline {
+      font-size: 0.95rem;
+      font-weight: 700;
+      color: #111827;
+      line-height: 1.4;
+      margin-bottom: 12px;
+      letter-spacing: -0.01em;
+    }
+    .card-news {
+      font-size: 0.83rem;
+      color: #4B5563;
+      line-height: 1.65;
+      margin-bottom: 14px;
+    }
+    .implications-header {
+      display: flex;
+      align-items: center;
+      gap: 6px;
+      font-size: 0.7rem;
+      font-weight: 700;
+      color: #9CA3AF;
+      text-transform: uppercase;
+      letter-spacing: 0.07em;
+      margin-bottom: 8px;
+    }
+    .implications-list {
+      list-style: none;
+      display: flex;
+      flex-direction: column;
+      gap: 8px;
+      margin-bottom: 16px;
+    }
+    .implication-item { display: flex; gap: 8px; align-items: flex-start; }
+    .implication-dot {
+      width: 6px; height: 6px;
+      border-radius: 50%;
+      background: currentColor;
+      margin-top: 5px;
+      flex-shrink: 0;
+    }
+    .implication-text { font-size: 0.81rem; line-height: 1.55; }
+    .implication-main { font-weight: 600; color: #1F2937; }
+    .implication-detail { color: #6B7280; font-weight: 400; }
+    .card-footer {
+      padding: 10px 18px 14px;
+      border-top: 1px solid #F3F4F6;
+      display: flex;
+      align-items: center;
+      gap: 6px;
+    }
+    .source-label { font-size: 0.72rem; color: #9CA3AF; font-weight: 500; }
+    .source-badge {
+      font-size: 0.72rem;
+      font-weight: 600;
+      color: #6B7280;
+      background: #F3F4F6;
+      padding: 2px 8px;
+      border-radius: 4px;
+    }
+    .archive-section {
+      margin-top: 48px;
+      padding-top: 32px;
+      border-top: 1px solid #E5E7EB;
+    }
+    .archive-title {
+      font-size: 0.75rem;
+      font-weight: 700;
+      color: #9CA3AF;
+      text-transform: uppercase;
+      letter-spacing: 0.08em;
+      margin-bottom: 16px;
+    }
+    .archive-list { display: flex; flex-wrap: wrap; gap: 8px; }
+    .archive-item {
+      display: inline-flex;
+      align-items: center;
+      gap: 6px;
+      padding: 6px 14px;
+      background: #FFFFFF;
+      border: 1px solid #E5E7EB;
+      border-radius: 8px;
+      font-size: 0.8rem;
+      font-weight: 500;
+      color: #374151;
+      cursor: pointer;
+      transition: background 0.1s, border-color 0.1s;
+      text-decoration: none;
+    }
+    .archive-item:hover { background: #F9FAFB; border-color: #D1D5DB; }
+    .archive-item.active { background: #EFF6FF; border-color: #BFDBFE; color: #1D4ED8; }
+    .empty-state { text-align: center; padding: 80px 24px; color: #9CA3AF; }
+    .empty-state p { font-size: 0.9rem; }
+    .loading { text-align: center; padding: 80px 24px; color: #9CA3AF; font-size: 0.9rem; }
+  </style>
 </head>
 <body>
-<div class="page-wrap">
-  <header class="site-header">
-    <div class="header-top">
-      <div class="logo">
-        <div class="logo-icon">📰</div>
-        <span class="logo-text">스타트업 모닝 메모</span>
-      </div>
-      <span class="header-date" id="header-date"></span>
-    </div>
-    <p class="header-tagline">매일 아침, 글로벌 스타트업 인사이트</p>
-    <div class="header-divider"></div>
-  </header>
 
-  <div id="content"></div>
+<header class="site-header">
+  <div class="site-header-inner">
+    <h1 class="site-title">스타트업 <span>모닝 메모</span></h1>
+    <span class="site-date" id="headerDate"></span>
+    <p class="site-tagline">글로벌 스타트업 · 테크 · 생명과학 — 매일 아침 주요 뉴스와 시사점</p>
+  </div>
+</header>
 
-  <footer class="site-footer">beeorbug · 스타트업 모닝 메모</footer>
-</div>
+<main class="main">
+  <div id="app"><div class="loading">불러오는 중…</div></div>
+</main>
 
 <script>
-const TAG_STYLES = {
-  '테크 #1': { bg:'#EFF6FF', color:'#2563EB' },
-  '테크 #2': { bg:'#F5F3FF', color:'#7C3AED' },
-  '테크 #3': { bg:'#FFFBEB', color:'#D97706' },
-  '테크 #4': { bg:'#ECFDF5', color:'#059669' },
-  '생명과학': { bg:'#ECFDF5', color:'#059669' },
-};
+  const MEMO_URL = 'memos.json';
 
-function renderMemos(memos) {
-  const content = document.getElementById('content');
-  const dateEl = document.getElementById('header-date');
-
-  if (!memos || memos.length === 0) {
-    content.innerHTML = '<div class="empty">아직 등록된 메모가 없습니다.</div>';
-    return;
+  function tintColor(hex, alpha) {
+    alpha = alpha || 0.12;
+    const r = parseInt(hex.slice(1,3),16);
+    const g = parseInt(hex.slice(3,5),16);
+    const b = parseInt(hex.slice(5,7),16);
+    return 'rgba('+r+','+g+','+b+','+alpha+')';
   }
 
-  const latest = memos[0];
-  if (latest.dateKo) dateEl.textContent = latest.dateKo + ' | Morning Memo';
+  function escHtml(str) {
+    return String(str).replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;').replace(/"/g,'&quot;');
+  }
 
-  // Latest memo — full cards grid
-  const grid = document.createElement('div');
-  grid.className = 'grid';
-
-  (latest.cards || []).forEach(card => {
+  function renderCard(card) {
     const accent = card.accentColor || '#2563EB';
-    const tagStyle = TAG_STYLES[card.tag] || { bg: '#F1F5F9', color: '#475569' };
-    const headlineHtml = (card.headline || '').replace(/\n/g, '<br>');
-
-    const implHtml = (card.implications || []).map(imp => `
-      <div class="impl-item">
-        <div class="impl-dot" style="background:${accent}"></div>
-        <div class="impl-text">
-          <div class="impl-main">${imp.main}</div>
-          <div class="impl-detail">— ${imp.detail}</div>
-        </div>
-      </div>
-    `).join('');
-
-    const el = document.createElement('div');
+    const tint = tintColor(accent);
+    const tagPill = '<span class="tag-pill" style="background:'+tint+';color:'+accent+'">'+(card.tag||'')+'</span>';
+    const headlineHtml = (card.headline||'').replace(/\n/g,'<br>');
+    let implHtml = '';
+    if (Array.isArray(card.implications) && card.implications.length > 0) {
+      const items = card.implications.map(function(imp) {
+        const main = imp.main ? '<span class="implication-main">'+escHtml(imp.main)+'</span>' : '';
+        const detail = imp.detail ? '<span class="implication-detail"> — '+escHtml(imp.detail)+'</span>' : '';
+        return '<li class="implication-item"><span class="implication-dot" style="color:'+accent+'"></span><span class="implication-text">'+main+detail+'</span></li>';
+      }).join('');
+      implHtml = '<div class="implications-header">📌 시사점</div><ul class="implications-list">'+items+'</ul>';
+    }
+    const sourceHtml = card.source ? '<div class="card-footer"><span class="source-label">출처</span><span class="source-badge">'+escHtml(card.source)+'</span></div>' : '';
+    const el = document.createElement('article');
     el.className = 'card';
-    el.innerHTML = `
-      <div class="card-accent" style="background:${accent}"></div>
-      <div class="card-inner">
-        <div class="card-meta">
-          <span class="tag-pill" style="background:${tagStyle.bg};color:${tagStyle.color}">${card.tag}</span>
-          <span class="card-icon">${card.icon || ''}</span>
-        </div>
-        <div>
-          <div class="card-company" style="color:${accent}">${card.company}</div>
-          <div class="card-headline">${headlineHtml}</div>
-        </div>
-        <div class="card-news">${card.news || ''}</div>
-        <div class="impl-block">
-          <div class="impl-label">📌 시사점</div>
-          ${implHtml}
-        </div>
-      </div>
-      <div class="card-footer">
-        <span class="source-badge">출처: ${card.source || ''}</span>
-      </div>
-    `;
-    grid.appendChild(el);
-  });
-
-  content.appendChild(grid);
-
-  // Archive — older memos
-  if (memos.length > 1) {
-    const archive = document.createElement('div');
-    archive.className = 'archive';
-    archive.innerHTML = '<div class="archive-title">이전 메모</div><div class="archive-list" id="archive-list"></div>';
-    content.appendChild(archive);
-
-    const archiveList = archive.querySelector('#archive-list');
-    memos.slice(1).forEach(memo => {
-      const companies = (memo.cards || []).map(c => c.company).join(' · ');
-      const row = document.createElement('div');
-      row.className = 'archive-row';
-      row.innerHTML = `
-        <span class="archive-date">${memo.dateKo || memo.date}</span>
-        <span class="archive-companies">${companies}</span>
-      `;
-      archiveList.appendChild(row);
-    });
+    el.style.borderTopColor = accent;
+    el.innerHTML = '<div class="card-top">'+tagPill+'<span class="card-icon">'+(card.icon||'')+'</span></div><div class="card-body"><div class="card-company">'+escHtml(card.company||'')+'</div><div class="card-headline">'+headlineHtml+'</div><div class="card-news">'+escHtml(card.news||'')+'</div>'+implHtml+'</div>'+sourceHtml;
+    return el;
   }
-}
 
-fetch('./memos.json')
-  .then(r => r.json())
-  .then(renderMemos)
-  .catch(() => {
-    document.getElementById('content').innerHTML = '<div class="empty">메모를 불러오는 중 오류가 발생했습니다.</div>';
-  });
+  function renderDateSection(entry) {
+    const section = document.createElement('section');
+    section.className = 'date-section';
+    section.dataset.date = entry.date;
+    const dateLabel = document.createElement('div');
+    dateLabel.className = 'date-label';
+    dateLabel.textContent = entry.dateKo || entry.date;
+    section.appendChild(dateLabel);
+    const grid = document.createElement('div');
+    grid.className = 'card-grid';
+    (entry.cards || []).forEach(function(card) { grid.appendChild(renderCard(card)); });
+    section.appendChild(grid);
+    return section;
+  }
+
+  function renderArchive(memos, activeDate, onSelect) {
+    if (memos.length <= 1) return null;
+    const wrap = document.createElement('div');
+    wrap.className = 'archive-section';
+    const title = document.createElement('div');
+    title.className = 'archive-title';
+    title.textContent = '이전 메모';
+    wrap.appendChild(title);
+    const list = document.createElement('div');
+    list.className = 'archive-list';
+    memos.forEach(function(entry) {
+      const a = document.createElement('button');
+      a.className = 'archive-item' + (entry.date === activeDate ? ' active' : '');
+      a.textContent = entry.dateKo || entry.date;
+      a.addEventListener('click', function() { onSelect(entry.date); });
+      list.appendChild(a);
+    });
+    wrap.appendChild(list);
+    return wrap;
+  }
+
+  function init() {
+    const app = document.getElementById('app');
+    fetch(MEMO_URL + '?_=' + Date.now())
+      .then(function(res) {
+        if (!res.ok) throw new Error('HTTP ' + res.status);
+        return res.json();
+      })
+      .then(function(memos) {
+        if (!memos || memos.length === 0) {
+          app.innerHTML = '<div class="empty-state"><p>아직 등록된 메모가 없습니다.</p></div>';
+          return;
+        }
+        var activeDate = memos[0].date;
+        document.getElementById('headerDate').textContent = memos[0].dateKo || memos[0].date;
+        function render() {
+          app.innerHTML = '';
+          var entry = memos.find(function(m) { return m.date === activeDate; }) || memos[0];
+          app.appendChild(renderDateSection(entry));
+          var archive = renderArchive(memos, activeDate, function(date) {
+            activeDate = date;
+            document.getElementById('headerDate').textContent = (memos.find(function(m) { return m.date === date; }) || memos[0]).dateKo || date;
+            render();
+          });
+          if (archive) app.appendChild(archive);
+        }
+        render();
+      })
+      .catch(function(e) {
+        app.innerHTML = '<div class="empty-state"><p>메모를 불러오는 데 실패했습니다.</p></div>';
+      });
+  }
+
+  init();
 </script>
 </body>
 </html>
