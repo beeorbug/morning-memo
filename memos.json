@@ -1,1 +1,29 @@
-[]
+[
+  {
+    "date": "2026-04-01",
+    "dateKo": "2026년 4월 1일",
+    "url": "https://docs.google.com/presentation/d/1IDaTkOX9kMC5AC6rSlH5Tr3hBuU46-S7m08LrcW48q0/edit",
+    "cards": [
+      {
+        "tag": "테크 #1",
+        "headline": "가사 도우미 로봇 유니콘 등극",
+        "company": "Sunday"
+      },
+      {
+        "tag": "테크 #2",
+        "headline": "자율주행 AI 글로벌 확장 $12억 펀딩",
+        "company": "Wayve"
+      },
+      {
+        "tag": "테크 #3",
+        "headline": "월 매출 $20억 돌파",
+        "company": "OpenAI"
+      },
+      {
+        "tag": "생명과학",
+        "headline": "세포 재프로그래밍 최초 임상 FDA 승인",
+        "company": "Life Biosciences"
+      }
+    ]
+  }
+]
