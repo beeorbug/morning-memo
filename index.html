@@ -1,36 +1,213 @@
 <!DOCTYPE html>
 <html lang="ko">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>스타트업 모닝 메모</title>
-  
-  
-  <style>
-    , *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1.0">
+<title>스타트업 모닝 메모</title>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Noto+Sans+KR:wght@400;500;700;900&display=swap" rel="stylesheet">
+<style>
+:root {
+  --bg: #F0F4F8;
+  --surface: #FFFFFF;
+  --border: #E2E8F0;
+  --text-primary: #0F172A;
+  --text-secondary: #475569;
+  --text-muted: #94A3B8;
+  --shadow: 0 1px 3px rgba(0,0,0,0.06), 0 4px 20px rgba(0,0,0,0.05);
+  --radius: 14px;
+}
+* { box-sizing: border-box; margin: 0; padding: 0; }
+body {
+  font-family: 'Inter', 'Noto Sans KR', sans-serif;
+  background: var(--bg);
+  color: var(--text-primary);
+  min-height: 100vh;
+  -webkit-font-smoothing: antialiased;
+}
+.page-wrap { max-width: 1080px; margin: 0 auto; padding: 48px 24px 80px; }
 
-    body {
-      font-family: 'Inter', 'Apple SD Gothic Neo', 'Noto Sans KR', sans-serif;
-      background: #F0F4F8;
-      color: #1F2937;
-      min-height: 100vh;
-    }
-  
-  
-  
-  card {
-      background: #FDDFEB;
-      border-radius: 12px;
-      border-top: 4px solid #2563EB;
-      box-shadow: 0 1px 3px rgba(0,0,0,0.08), 0 4px 16px rgba(0,0,0,0.04);
-      display: flex;
-      flex-direction: column;
-      overflow: hidden;
-      transition: box-shadow 0.15s ease, transform 0.15s ease;
-    }
-    
-  </style>
-  
+/* ── Header ── */
+.site-header { margin-bottom: 48px; }
+.header-top { display: flex; align-items: center; justify-content: space-between; flex-wrap: wrap; gap: 12px; margin-bottom: 6px; }
+.logo { display: flex; align-items: center; gap: 10px; }
+.logo-icon { width: 36px; height: 36px; background: linear-gradient(135deg,#2563EB,#7C3AED); border-radius: 9px; display: flex; align-items: center; justify-content: center; font-size: 18px; }
+.logo-text { font-size: 1.3rem; font-weight: 800; letter-spacing: -0.4px; color: var(--text-primary); }
+.header-date { font-size: 0.82rem; color: var(--text-muted); font-weight: 500; }
+.header-tagline { font-size: 0.88rem; color: var(--text-secondary); margin-top: 4px; }
+.header-divider { height: 1px; background: var(--border); margin-top: 20px; }
+
+/* ── Grid ── */
+.grid { display: grid; grid-template-columns: repeat(2, 1fr); gap: 20px; }
+@media (max-width: 700px) { .grid { grid-template-columns: 1fr; } }
+
+/* ── Card ── */
+.card {
+  background: var(--surface);
+  border-radius: var(--radius);
+  box-shadow: var(--shadow);
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  transition: transform 0.18s, box-shadow 0.18s;
+}
+.card:hover { transform: translateY(-2px); box-shadow: 0 4px 6px rgba(0,0,0,0.07), 0 12px 32px rgba(0,0,0,0.08); }
+.card-accent { height: 4px; width: 100%; }
+.card-inner { padding: 22px 22px 18px; flex: 1; display: flex; flex-direction: column; gap: 14px; }
+
+/* Tag + icon row */
+.card-meta { display: flex; align-items: center; justify-content: space-between; }
+.tag-pill { font-size: 11px; font-weight: 700; padding: 3px 10px; border-radius: 20px; letter-spacing: 0.3px; }
+.card-icon { font-size: 22px; line-height: 1; }
+
+/* Headline */
+.card-company { font-size: 11px; font-weight: 600; letter-spacing: 0.8px; text-transform: uppercase; margin-bottom: 4px; }
+.card-headline { font-size: 1rem; font-weight: 700; line-height: 1.45; color: var(--text-primary); letter-spacing: -0.2px; }
+
+/* Summary */
+.card-news { font-size: 0.855rem; line-height: 1.65; color: var(--text-secondary); }
+
+/* Implications */
+.impl-block { background: #F8FAFC; border-radius: 10px; padding: 14px 16px; display: flex; flex-direction: column; gap: 10px; }
+.impl-label { font-size: 11px; font-weight: 700; letter-spacing: 0.5px; color: var(--text-muted); text-transform: uppercase; margin-bottom: 2px; }
+.impl-item { display: flex; gap: 8px; align-items: flex-start; }
+.impl-dot { width: 6px; height: 6px; border-radius: 50%; flex-shrink: 0; margin-top: 5px; }
+.impl-text { font-size: 0.825rem; line-height: 1.55; }
+.impl-main { font-weight: 600; color: var(--text-primary); }
+.impl-detail { color: var(--text-secondary); margin-top: 1px; }
+
+/* Footer */
+.card-footer { padding: 0 22px 18px; display: flex; align-items: center; justify-content: flex-end; }
+.source-badge { font-size: 11px; color: var(--text-muted); font-weight: 500; }
+
+/* ── Archive ── */
+.archive { margin-top: 56px; }
+.archive-title { font-size: 0.78rem; font-weight: 700; letter-spacing: 1px; text-transform: uppercase; color: var(--text-muted); margin-bottom: 14px; }
+.archive-list { display: flex; flex-direction: column; gap: 8px; }
+.archive-row { background: var(--surface); border-radius: 10px; padding: 12px 18px; display: flex; align-items: center; justify-content: space-between; gap: 12px; font-size: 0.85rem; box-shadow: 0 1px 3px rgba(0,0,0,0.04); }
+.archive-date { font-weight: 600; color: var(--text-secondary); flex-shrink: 0; }
+.archive-companies { color: var(--text-muted); font-size: 0.8rem; }
+
+/* ── Empty ── */
+.empty { text-align: center; padding: 80px 20px; color: var(--text-muted); font-size: 1rem; }
+
+/* ── Footer ── */
+.site-footer { text-align: center; margin-top: 60px; font-size: 0.78rem; color: var(--text-muted); letter-spacing: 0.3px; }
+</style>
 </head>
-�</body>
+<body>
+<div class="page-wrap">
+  <header class="site-header">
+    <div class="header-top">
+      <div class="logo">
+        <div class="logo-icon">📰</div>
+        <span class="logo-text">스타트업 모닝 메모</span>
+      </div>
+      <span class="header-date" id="header-date"></span>
+    </div>
+    <p class="header-tagline">매일 아침, 글로벌 스타트업 인사이트</p>
+    <div class="header-divider"></div>
+  </header>
+
+  <div id="content"></div>
+
+  <footer class="site-footer">beeorbug · 스타트업 모닝 메모</footer>
+</div>
+
+<script>
+const TAG_STYLES = {
+  '테크 #1': { bg:'#EFF6FF', color:'#2563EB' },
+  '테크 #2': { bg:'#F5F3FF', color:'#7C3AED' },
+  '테크 #3': { bg:'#FFFBEB', color:'#D97706' },
+  '테크 #4': { bg:'#ECFDF5', color:'#059669' },
+  '생명과학': { bg:'#ECFDF5', color:'#059669' },
+};
+
+function renderMemos(memos) {
+  const content = document.getElementById('content');
+  const dateEl = document.getElementById('header-date');
+
+  if (!memos || memos.length === 0) {
+    content.innerHTML = '<div class="empty">아직 등록된 메모가 없습니다.</div>';
+    return;
+  }
+
+  const latest = memos[0];
+  if (latest.dateKo) dateEl.textContent = latest.dateKo + ' | Morning Memo';
+
+  // Latest memo — full cards grid
+  const grid = document.createElement('div');
+  grid.className = 'grid';
+
+  (latest.cards || []).forEach(card => {
+    const accent = card.accentColor || '#2563EB';
+    const tagStyle = TAG_STYLES[card.tag] || { bg: '#F1F5F9', color: '#475569' };
+    const headlineHtml = (card.headline || '').replace(/\n/g, '<br>');
+
+    const implHtml = (card.implications || []).map(imp => `
+      <div class="impl-item">
+        <div class="impl-dot" style="background:${accent}"></div>
+        <div class="impl-text">
+          <div class="impl-main">${imp.main}</div>
+          <div class="impl-detail">— ${imp.detail}</div>
+        </div>
+      </div>
+    `).join('');
+
+    const el = document.createElement('div');
+    el.className = 'card';
+    el.innerHTML = `
+      <div class="card-accent" style="background:${accent}"></div>
+      <div class="card-inner">
+        <div class="card-meta">
+          <span class="tag-pill" style="background:${tagStyle.bg};color:${tagStyle.color}">${card.tag}</span>
+          <span class="card-icon">${card.icon || ''}</span>
+        </div>
+        <div>
+          <div class="card-company" style="color:${accent}">${card.company}</div>
+          <div class="card-headline">${headlineHtml}</div>
+        </div>
+        <div class="card-news">${card.news || ''}</div>
+        <div class="impl-block">
+          <div class="impl-label">📌 시사점</div>
+          ${implHtml}
+        </div>
+      </div>
+      <div class="card-footer">
+        <span class="source-badge">출처: ${card.source || ''}</span>
+      </div>
+    `;
+    grid.appendChild(el);
+  });
+
+  content.appendChild(grid);
+
+  // Archive — older memos
+  if (memos.length > 1) {
+    const archive = document.createElement('div');
+    archive.className = 'archive';
+    archive.innerHTML = '<div class="archive-title">이전 메모</div><div class="archive-list" id="archive-list"></div>';
+    content.appendChild(archive);
+
+    const archiveList = archive.querySelector('#archive-list');
+    memos.slice(1).forEach(memo => {
+      const companies = (memo.cards || []).map(c => c.company).join(' · ');
+      const row = document.createElement('div');
+      row.className = 'archive-row';
+      row.innerHTML = `
+        <span class="archive-date">${memo.dateKo || memo.date}</span>
+        <span class="archive-companies">${companies}</span>
+      `;
+      archiveList.appendChild(row);
+    });
+  }
+}
+
+fetch('./memos.json')
+  .then(r => r.json())
+  .then(renderMemos)
+  .catch(() => {
+    document.getElementById('content').innerHTML = '<div class="empty">메모를 불러오는 중 오류가 발생했습니다.</div>';
+  });
+</script>
+</body>
 </html>
