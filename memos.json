@@ -1,5 +1,103 @@
 [
   {
+    "date": "2026-04-05",
+    "label": "Apr 5",
+    "cards": [
+      {
+        "tag": "테크 #1",
+        "company": "Anthropic",
+        "icon": "🧬",
+        "headline": "AI 신약 스타트업 인수\nAnthropic, Coefficient Bio $4억 인수 완료",
+        "news": "Anthropic이 Genentech 출신 연구원들이 설립한 AI 신약 스타트업 Coefficient Bio를 약 $4억 규모의 주식 딜로 인수했다. 창업 8개월 만에 성사된 이번 딜로, Anthropic은 AI를 활용한 신약 R&D 계획, 임상 규제 전략, 신약 후보 발굴 자동화에 본격 진출한다.",
+        "implications": [
+          {
+            "main": "AI 빅테크의 바이오 진출 가속",
+            "detail": "Anthropic의 바이오텍 인수는 AI 기업들이 제약·생명과학 시장을 새로운 성장 동력으로 삼고 있음을 보여줌"
+          },
+          {
+            "main": "에이전틱 AI의 신약 개발 적용",
+            "detail": "임상 설계부터 규제 전략까지 AI 에이전트가 자율적으로 수행하는 생명과학 자동화의 실험적 전진기지 역할 예상"
+          },
+          {
+            "main": "스텔스 바이오텍의 빠른 엑시트 모델",
+            "detail": "창업 8개월 만의 $4억 엑시트는 AI 기반 바이오텍이 전통적 임상 없이도 빠른 M&A 대상이 될 수 있음을 시사"
+          }
+        ],
+        "source": "TechCrunch",
+        "accentColor": "#2563EB"
+      },
+      {
+        "tag": "테크 #2",
+        "company": "Cognichip",
+        "icon": "💡",
+        "headline": "반도체 설계 비용 75% 절감\nCognichip $6천만 Series A 펀딩 완료",
+        "news": "AI 기반 반도체 설계 스타트업 Cognichip이 Seligman Ventures 주도로 $6천만 Series A 펀딩을 완료했다. Intel CEO 출신 Lip-Bu Tan이 이사회에 합류하며, 물리 기반 AI 모델로 칩 설계 비용을 75% 이상·개발 기간을 50%까지 단축할 수 있다고 밝혔다.",
+        "implications": [
+          {
+            "main": "반도체 설계 민주화 가능성",
+            "detail": "칩 설계 비용 75% 절감은 대형 팹리스만 가능했던 첨단 설계를 중소기업·스타트업에도 열어주는 계기가 될 수 있음"
+          },
+          {
+            "main": "AI-EDA 시장 경쟁 본격화",
+            "detail": "Synopsys·Cadence 등 전통 EDA 강자에 도전하는 AI 네이티브 스타트업의 성장으로 반도체 설계 툴 시장 지형 변화 예고"
+          },
+          {
+            "main": "산업계 검증 리더십의 신뢰 효과",
+            "detail": "Lip-Bu Tan의 이사회 합류는 기술 신뢰도 제고와 함께 글로벌 반도체 생태계와의 협력 채널 확보 측면에서도 의미 있음"
+          }
+        ],
+        "source": "TechCrunch",
+        "accentColor": "#2563EB"
+      },
+      {
+        "tag": "라이프사이언스 #1",
+        "company": "Generare",
+        "icon": "🦠",
+        "headline": "미생물 유전체에서 신약 분자 AI 채굴\nGenerare €2천만 Series A 펀딩 완료",
+        "news": "파리 기반 바이오텍 Generare가 Alven·Daphni 공동 주도로 €2,000만 Series A 펀딩을 완료했다. AI로 수만 개 미생물 유전체를 스캔해 기존에 탐색되지 않은 97%의 미생물 화학물질에서 신약 후보를 발굴하며, 2025년 한 해에만 200개 이상의 신규 분자를 확보했다.",
+        "implications": [
+          {
+            "main": "미개척 미생물 화학 공간의 상업화",
+            "detail": "전체 미생물 화학물질의 97%가 미탐색 상태라는 점은 AI 기반 게놈 마이닝이 신약 파이프라인의 새로운 원천이 될 수 있음을 의미"
+          },
+          {
+            "main": "유럽 AI 바이오텍 생태계 성장",
+            "detail": "파리를 중심으로 한 유럽 바이오텍 스타트업이 미국·중국 중심의 AI 신약 경쟁에서 독자적 포지셔닝을 확보해 나가는 흐름"
+          },
+          {
+            "main": "분자 발굴 속도의 패러다임 전환",
+            "detail": "2025년 한 해에만 업계 전체보다 많은 분자를 확보했다는 주장은 AI가 전통적 신약 발굴의 속도 제약을 근본적으로 깨고 있음을 보여줌"
+          }
+        ],
+        "source": "EU-Startups",
+        "accentColor": "#059669"
+      },
+      {
+        "tag": "라이프사이언스 #2",
+        "company": "Insilico Medicine",
+        "icon": "💊",
+        "headline": "AI 신약 빅파마 메가딜 체결\nInsilico Medicine·Eli Lilly $27.5억 파트너십 체결",
+        "news": "Insilico Medicine이 Eli Lilly와 총 $27.5억 규모의 멀티-타겟 신약 발굴 파트너십을 체결했다. 선급금 $1억 1,500만과 함께 Pharma.AI 플랫폼으로 타겟 발굴부터 상업화까지 전 과정을 AI로 자동화하며, 28개 파이프라인 중 절반이 이미 임상 단계에 진입해 있다.",
+        "implications": [
+          {
+            "main": "AI 신약 플랫폼의 빅파마 검증",
+            "detail": "글로벌 10대 제약사인 Eli Lilly의 $27.5억 계약은 AI 신약 플랫폼이 개념 증명을 넘어 실질적 R&D 파이프라인으로 인정받고 있음을 의미"
+          },
+          {
+            "main": "전주기 AI 자동화의 현실화",
+            "detail": "타겟 발굴~상업화까지 전 과정 AI 자동화는 기존 10~15년 신약 개발 주기를 대폭 단축하는 새로운 제약 R&D 모델의 가능성을 보여줌"
+          },
+          {
+            "main": "AI 바이오텍의 수익 모델 확립",
+            "detail": "선급금 $1억+마일스톤 구조의 대형 파트너십은 AI 신약 기업이 IPO 없이도 빅파마와의 계약으로 안정적 수익 모델을 구축할 수 있음을 시사"
+          }
+        ],
+        "source": "STAT News",
+        "accentColor": "#059669"
+      }
+    ]
+  },
+  {
     "date": "2026-04-04",
     "dateKo": "2026년 4월 4일",
     "cards": [
