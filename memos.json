@@ -1,5 +1,103 @@
 [
   {
+    "date": "2026-04-09",
+    "label": "Apr 9",
+    "cards": [
+      {
+        "tag": "테크 #1",
+        "company": "Patlytics",
+        "icon": "⚖️",
+        "headline": "AI로 특허 전 생애주기 자동화\nPatlytics, $4천만 Series B 펀딩 완료",
+        "news": "SignalFire 주도로 $4천만 Series B 펀딩을 완료한 Patlytics는 특허 출원부터 분쟁 대응까지 전 과정을 AI로 자동화하는 플랫폼이다. 기업 IP 전략이 복잡해지면서 AI 기반 특허 관리 솔루션 수요가 급증하고 있으며, 이번 펀딩으로 플랫폼 고도화와 시장 확장에 속도를 낼 전망이다.",
+        "implications": [
+          {
+            "main": "IP 자동화 본격화",
+            "detail": "출원·분석·분쟁 대응 등 전통적으로 전문 인력에 의존하던 특허 업무가 AI로 대체되며 법률 서비스의 소프트웨어화가 가속화된다."
+          },
+          {
+            "main": "기업 IP 전략 복잡성 증가",
+            "detail": "AI·바이오·반도체 등 기술 집약 산업 확대로 기업의 특허 포트폴리오가 커지면서 자동화 관리 수요도 함께 증가하는 추세다."
+          },
+          {
+            "main": "LegalTech 투자 증가세",
+            "detail": "법률 분야 AI 도입이 늘며 LegalTech 섹터로의 VC 투자가 확대되고 있으며, IP 특화 플랫폼이 틈새 고성장 카테고리로 부상하고 있다."
+          }
+        ],
+        "source": "Crunchbase",
+        "accentColor": "#2563EB"
+      },
+      {
+        "tag": "테크 #2",
+        "company": "Normal Computing",
+        "icon": "🔬",
+        "headline": "삼성전자 주도 $5천만 펀딩 유치\nNormal Computing, AI 칩 설계 자동화 가속",
+        "news": "AI 기반 전자 설계 자동화(EDA) 스타트업 Normal Computing이 삼성전자 주도로 $5천만 펀딩을 완료했다. 차세대 반도체 아키텍처 연구와 AI를 활용한 칩 설계 자동화에 집중하며, 대형 반도체 기업들이 AI EDA 스타트업을 전략적 파트너로 적극 포섭하는 흐름이 이어지고 있다.",
+        "implications": [
+          {
+            "main": "반도체 설계의 AI 전환",
+            "detail": "복잡도가 높아지는 칩 설계 과정에서 AI 기반 EDA 툴이 설계 주기 단축과 비용 절감의 핵심 수단으로 자리잡고 있다."
+          },
+          {
+            "main": "삼성의 전략적 투자",
+            "detail": "삼성전자가 AI EDA 스타트업에 직접 투자함으로써 내부 설계 역량 강화와 외부 기술 확보를 동시에 추구하는 투트랙 전략을 구사하고 있다."
+          },
+          {
+            "main": "EDA 시장 재편 가속",
+            "detail": "Synopsys·Cadence가 주도하던 기존 EDA 시장에 AI 네이티브 스타트업들이 진입하며 경쟁 구도가 빠르게 변화하고 있다."
+          }
+        ],
+        "source": "Crunchbase",
+        "accentColor": "#2563EB"
+      },
+      {
+        "tag": "테크 #3",
+        "company": "Worktrace AI",
+        "icon": "🚀",
+        "headline": "OpenAI 출신 벤처펀드, 첫 포트폴리오 공개\nWorktrace AI, $1천만 시드 펀딩 확보",
+        "news": "OpenAI 초창기 멤버들이 설립한 벤처펀드 Zero Shot이 $2천만 규모로 운영되며 첫 포트폴리오 기업 Worktrace AI를 공개했다. Worktrace AI는 전 OpenAI CTO Mira Murati가 참여한 $1천만 시드 펀딩을 확보했으며, AI 핵심 인재들의 투자 생태계 진입이 새로운 펀딩 흐름을 만들어가고 있다.",
+        "implications": [
+          {
+            "main": "AI 인재의 투자자 전환",
+            "detail": "OpenAI 출신 핵심 인재들이 창업자를 넘어 투자자로 역할을 넓히며, AI 생태계 내 자본 순환 구조가 심화되고 있다."
+          },
+          {
+            "main": "소형 집중 펀드의 부상",
+            "detail": "대형 VC 대신 $1~2억 규모의 도메인 특화 마이크로 펀드가 AI 스타트업 초기 투자를 주도하는 새로운 패턴이 나타나고 있다."
+          },
+          {
+            "main": "Mira Murati 행보 주목",
+            "detail": "OpenAI CTO 출신 Mira Murati의 참여는 Worktrace AI의 기술 신뢰도를 높이는 동시에 AI 인재 브랜드가 펀딩 레버리지로 작용하는 사례로 주목받는다."
+          }
+        ],
+        "source": "TechCrunch",
+        "accentColor": "#2563EB"
+      },
+      {
+        "tag": "라이프사이언스 #1",
+        "company": "Sidewinder Therapeutics",
+        "icon": "🧬",
+        "headline": "이중특이성 ADC로 종양 타겟팅 혁신\nSidewinder Therapeutics, $1.37억 Series B 완료",
+        "news": "Frazier Life Sciences와 Novartis Venture Fund 공동 주도로 초과구독된 $1.37억 Series B 펀딩을 완료한 Sidewinder Therapeutics는 두 개의 항체와 독성 페이로드를 결합한 이중특이성 ADC 플랫폼으로 종양 특이성 향상을 추구한다. ADC 분야가 암 치료 혁신의 핵심 축으로 부상하면서 관련 스타트업에 대한 대규모 펀딩이 이어지고 있다.",
+        "implications": [
+          {
+            "main": "ADC 차세대 기술 경쟁",
+            "detail": "단일 항체 ADC의 한계를 넘어 이중특이성 항체를 활용한 2세대 ADC 개발이 활발해지며, 종양 선택성과 치료 효능을 동시에 높이려는 경쟁이 가속화되고 있다."
+          },
+          {
+            "main": "빅파마의 전략 투자 확대",
+            "detail": "Novartis Venture Fund의 참여는 단순 재무 투자를 넘어 ADC 분야 기술 확보를 위한 전략적 포석으로, 향후 파트너십이나 인수합병 가능성을 시사한다."
+          },
+          {
+            "main": "초과구독이 보여주는 시장 신뢰",
+            "detail": "목표액을 초과한 구독 완료는 ADC 플랫폼 기술에 대한 투자자 신뢰가 높음을 보여주며, 바이오텍 겨울 속에서도 차별화된 모달리티는 자금 조달에 유리함을 확인시켜준다."
+          }
+        ],
+        "source": "Crunchbase",
+        "accentColor": "#059669"
+      }
+    ]
+  },
+  {
     "date": "2026-04-07",
     "label": "Apr 7",
     "cards": [
