@@ -1,5 +1,103 @@
 [
   {
+    "date": "2026-04-11",
+    "label": "Apr 11",
+    "cards": [
+      {
+        "tag": "테크 #1",
+        "company": "SiFive",
+        "icon": "⚡",
+        "headline": "RISC-V 기반 AI 칩 스타트업\nNVIDIA 등으로부터 $4억 Series G 펀딩",
+        "news": "SiFive가 Atreides Management 주도, NVIDIA·Apollo·T. Rowe Price 참여로 $4억 규모 Series G 펀딩을 완료하며 기업가치 $36.5억을 달성했다. 오픈 표준 RISC-V 아키텍처 기반 AI CPU·가속기 IP를 500개 이상의 설계에 적용 중이며, 누적 100억 개 코어를 출하한 바 있다. 이번 펀딩을 통해 RISC-V 기반 AI 데이터센터 칩 로드맵을 가속화할 계획이다.",
+        "implications": [
+          {
+            "main": "ARM 독점 균열",
+            "detail": "RISC-V가 차세대 AI 인프라의 핵심 아키텍처 대안으로 급부상하며 ARM 중심의 시장 구도에 균열이 생기고 있다."
+          },
+          {
+            "main": "빅테크의 오픈 아키텍처 베팅",
+            "detail": "NVIDIA 등 주요 AI 기업이 오픈 표준 RISC-V에 직접 투자함으로써 생태계 다양화와 공급망 자율성 확보 전략을 가속화하고 있다."
+          },
+          {
+            "main": "AI 칩 설계 IP 시장 성장",
+            "detail": "완성품 칩 대신 IP 라이선싱 모델로 500개 이상의 설계에 적용된 SiFive 사례는 AI 시대 반도체 설계 IP의 전략적 가치를 입증한다."
+          }
+        ],
+        "source": "Bloomberg",
+        "accentColor": "#2563EB"
+      },
+      {
+        "tag": "테크 #2",
+        "company": "Mercor",
+        "icon": "🔐",
+        "headline": "LiteLLM 공급망 공격으로\nMeta 계약 중단·소송 위기",
+        "news": "OpenAI·Anthropic·Meta의 AI 학습 데이터를 공급하는 Mercor가 오픈소스 라이브러리 LiteLLM의 공급망 공격(TeamPCP 해커 그룹)으로 후보자 정보·API 키·소스코드를 포함한 4TB 데이터를 유출당했다. Meta는 계약을 무기한 중단했으며 계약자 5명이 소송을 제기했다. 기업가치 $100억의 AI 유니콘이 단일 보안 취약점으로 존립 위기에 처했다.",
+        "implications": [
+          {
+            "main": "AI 공급망 보안의 핵심 리스크화",
+            "detail": "오픈소스 의존도가 높은 AI 스타트업일수록 공급망 보안 취약점이 기업 전체의 생존을 위협하는 핵심 전략 리스크가 된다."
+          },
+          {
+            "main": "빅테크의 즉각적 계약 해지 선례",
+            "detail": "Meta의 즉각적 계약 중단은 AI 데이터·서비스 공급사에 대한 빅테크의 보안 기준이 한층 엄격해졌음을 보여주는 사례다."
+          },
+          {
+            "main": "유니콘 밸류에이션의 취약성",
+            "detail": "단 하나의 보안 사고로 $100억 기업가치가 순식간에 훼손될 수 있음은, AI 스타트업 투자자들이 보안 실사를 필수 항목으로 삼아야 함을 시사한다."
+          }
+        ],
+        "source": "TechCrunch",
+        "accentColor": "#2563EB"
+      },
+      {
+        "tag": "테크 #3",
+        "company": "Fusion Energy",
+        "icon": "⚛️",
+        "headline": "AI 에너지 수요 급증 배경으로\n핵융합 스타트업 투자 전성시대",
+        "news": "TechCrunch가 $1억 이상을 펀딩받은 핵융합 스타트업 전체를 심층 분석했다. Pacific Fusion($9억), Commonwealth Fusion Systems, TAE Technologies, Helion Energy 등이 자기 한계·관성 한계·레이저 등 다양한 기술 방식으로 경쟁 중이다. AI 데이터센터의 폭발적 에너지 수요를 배경으로 핵융합이 진지한 에너지 인프라 투자 대상으로 급부상하고 있다.",
+        "implications": [
+          {
+            "main": "AI 에너지 수요가 핵융합 투자 촉매",
+            "detail": "AI 데이터센터의 전력 수요 급증이 재생에너지 한계를 넘어 핵융합을 현실적인 인프라 투자 대상으로 격상시키고 있다."
+          },
+          {
+            "main": "기술 방식 다양화로 리스크 분산",
+            "detail": "자기 한계, 관성 한계, 레이저 등 다양한 방식이 동시에 대규모 펀딩을 받으며 '어느 방식이 먼저 상용화되나'의 경쟁 구도가 형성됐다."
+          },
+          {
+            "main": "장기 딥테크 베팅의 주류화",
+            "detail": "수십 년 프로젝트로 여겨지던 핵융합이 벤처 투자의 주류 포트폴리오에 진입한 것은, 에너지 전환의 시급성과 AI 수요가 맞물린 결과다."
+          }
+        ],
+        "source": "TechCrunch",
+        "accentColor": "#2563EB"
+      },
+      {
+        "tag": "라이프사이언스 #1",
+        "company": "Human Longevity, Inc.",
+        "icon": "🧬",
+        "headline": "Geoffrey Hinton, HLI 과학자문 합류\n게놈+AI 질병 예측 플랫폼 강화",
+        "news": "딥러닝 창시자이자 2024 노벨 물리학상 수상자인 Geoffrey Hinton이 Human Longevity, Inc.(HLI)의 과학자문위원으로 합류했다. Craig Venter가 설립한 HLI는 대규모 게놈·영상·바이오마커 통합 플랫폼에 차세대 머신러닝을 적용하며, 2026년 초 AI 건강 앱 MyHealth를 출시할 계획이다.",
+        "implications": [
+          {
+            "main": "탑티어 AI 연구자의 헬스케어 이동",
+            "detail": "노벨상 수상 수준의 AI 연구자가 헬스케어 기업의 핵심 전략 파트너로 영입되는 추세는, AI와 바이오의 경계가 빠르게 허물어지고 있음을 보여준다."
+          },
+          {
+            "main": "게놈 데이터 + AI의 임상 현실화",
+            "detail": "게놈·영상·바이오마커를 통합한 AI 플랫폼은 예측 의학의 정밀도를 획기적으로 높여, 조기 진단 및 맞춤 치료의 상용화를 앞당길 수 있다."
+          },
+          {
+            "main": "AI 헬스 앱 시장 경쟁 격화",
+            "detail": "MyHealth 출시를 앞두고 HLI가 Hinton을 영입한 것은 B2C AI 건강 플랫폼 시장에서 과학적 신뢰도가 핵심 차별화 요소임을 시사한다."
+          }
+        ],
+        "source": "PR Newswire",
+        "accentColor": "#059669"
+      }
+    ]
+  },
+  {
     "date": "2026-04-10",
     "label": "Apr 10",
     "cards": [
