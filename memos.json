@@ -1,5 +1,103 @@
 [
   {
+    "date": "2026-04-10",
+    "label": "Apr 10",
+    "cards": [
+      {
+        "tag": "테크 #1",
+        "company": "Applied Compute",
+        "icon": "🤖",
+        "headline": "전 OpenAI 연구원 창업\n엔터프라이즈 AI 에이전트 $8천만 펀딩",
+        "news": "전 OpenAI 연구원 3인이 설립한 Applied Compute가 Kleiner Perkins 주도로 $8천만 펀딩을 완료하며 기업가치 $13억을 달성했다. 이 회사는 기업의 실제 운영 데이터를 학습해 진화하는 'Specific Intelligence' 에이전트를 구축한다. 단순히 스마트한 AI를 넘어 실제 비즈니스에서 유용한 AI를 목표로 한다.",
+        "implications": [
+          {
+            "main": "OpenAI 출신 창업 트렌드",
+            "detail": "전 OpenAI 연구원들의 창업이 이어지며 엔터프라이즈 AI 시장에 고급 인재가 집중되고 있다."
+          },
+          {
+            "main": "특화형 AI 에이전트 부상",
+            "detail": "범용 AI보다 특정 도메인 데이터로 훈련된 'Specific Intelligence'가 엔터프라이즈 수요를 공략하는 새 전략으로 자리잡고 있다."
+          },
+          {
+            "main": "대형 VC 초기 집중 투자",
+            "detail": "Kleiner Perkins가 주도하는 $8천만 펀딩은 엔터프라이즈 AI 에이전트 시장의 성장 가능성에 대한 높은 신뢰를 반영한다."
+          }
+        ],
+        "source": "RootData",
+        "accentColor": "#2563EB"
+      },
+      {
+        "tag": "테크 #2",
+        "company": "D-Robotics",
+        "icon": "🦾",
+        "headline": "체화 AI 플랫폼\n20일 만에 Series B $2.7억 완성",
+        "news": "Horizon Robotics에서 분사한 D-Robotics가 20일 만에 B1 $1.2억에 이어 B2 $1.5억을 추가 펀딩하며 Series B 총 $2.7억을 달성했다. Didi Global과 Temasek 산하 Vertex Growth가 투자에 참여했다. 물류 AMR부터 휴머노이드까지 아우르는 범용 AI 두뇌 공급 플랫폼 전략을 추진 중이다.",
+        "implications": [
+          {
+            "main": "체화 AI에 가속화된 자본 유입",
+            "detail": "20일 만에 연속 라운드를 마감한 사례는 휴머노이드·로봇 AI 시장에 대한 투자자들의 긴박감을 보여준다."
+          },
+          {
+            "main": "플랫폼 전략으로 시장 선점",
+            "detail": "특정 로봇 형태가 아닌 범용 AI 두뇌 플랫폼을 공급함으로써 물류부터 휴머노이드까지 다양한 고객사를 확보하는 전략이다."
+          },
+          {
+            "main": "아시아 체화 AI 생태계 형성",
+            "detail": "Didi, Temasek 등 아시아 자본의 참여는 중국·동남아시아 중심의 체화 AI 공급망과 생태계가 빠르게 구축되고 있음을 시사한다."
+          }
+        ],
+        "source": "The AI Insider",
+        "accentColor": "#2563EB"
+      },
+      {
+        "tag": "테크 #3",
+        "company": "Nava",
+        "icon": "☁️",
+        "headline": "APAC AI 클라우드 인프라\n$2,200만 펀딩으로 시장 본격 공략",
+        "news": "구 Kluisz에서 Nava로 리브랜딩한 APAC AI 클라우드 인프라 스타트업이 Greenoaks Capital 주도로 $2,200만 펀딩을 완료했다. Nava는 AI 제품 구동을 위한 클라우드 컴퓨팅 스택과 배포 인프라를 제공하며 아시아·태평양 시장을 공략한다.",
+        "implications": [
+          {
+            "main": "APAC AI 인프라 수요 폭증",
+            "detail": "아시아·태평양 지역 AI 서비스 확산에 따라 현지 특화 클라우드 인프라 수요가 급격히 증가하고 있다."
+          },
+          {
+            "main": "리브랜딩으로 포지셔닝 명확화",
+            "detail": "Kluisz에서 Nava로의 전환은 AI 인프라 전문 기업으로서 시장 인지도를 높이려는 전략적 선택이다."
+          },
+          {
+            "main": "Greenoaks의 인프라 레이어 베팅",
+            "detail": "AI 애플리케이션보다 그 아래 인프라 레이어에 투자하는 전략은 AI 붐의 수혜를 안정적으로 취하려는 투자 흐름을 반영한다."
+          }
+        ],
+        "source": "NewsKart",
+        "accentColor": "#2563EB"
+      },
+      {
+        "tag": "라이프사이언스 #1",
+        "company": "C4 Therapeutics",
+        "icon": "🧬",
+        "headline": "Roche와 DAC 암 치료제 공동연구\n최대 $10억+ 마일스톤 계약",
+        "news": "C4 Therapeutics가 Roche와 차세대 DAC(분해제-항체 접합체) 암 치료제 공동연구 계약을 체결했다. 선급금 $2천만과 $10억 이상의 마일스톤으로 구성된 이번 계약은 C4T의 TORPEDO 플랫폼과 Roche의 항체 기술을 결합한다. ADC의 다음 세대로 주목받는 DAC에 빅파마 자본이 본격 유입되는 신호탄이다.",
+        "implications": [
+          {
+            "main": "DAC, ADC를 잇는 차세대 플랫폼",
+            "detail": "단백질 분해 메커니즘을 항체에 결합한 DAC는 기존 ADC보다 표적 특이성과 효능을 높일 수 있어 차세대 항암 플랫폼으로 급부상하고 있다."
+          },
+          {
+            "main": "빅파마의 플랫폼 기술 확보 경쟁",
+            "detail": "Roche의 투자는 내부 개발보다 외부 혁신 플랫폼을 라이선싱하는 전략으로, 단백질 분해 치료제 분야에서의 기술 경쟁이 심화될 것임을 암시한다."
+          },
+          {
+            "main": "C4T 파이프라인 가치 재평가",
+            "detail": "대형 계약을 통한 TORPEDO 플랫폼의 검증은 C4 Therapeutics의 기업가치와 파이프라인 전반에 대한 시장 재평가를 이끌 수 있다."
+          }
+        ],
+        "source": "GlobeNewswire",
+        "accentColor": "#059669"
+      }
+    ]
+  },
+  {
     "date": "2026-04-09",
     "label": "Apr 9",
     "cards": [
