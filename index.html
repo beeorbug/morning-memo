@@ -14,7 +14,7 @@
     .site-header-inner { max-width: 960px; margin: 0 auto; display: flex; align-items: baseline; gap: 16px; flex-wrap: wrap; }
     .site-title { font-size: 1.5rem; font-weight: 800; letter-spacing: -0.02em; color: #111827; }
     .site-title span { color: #2563EB; }
-    .site-date { font-size: 0.85rem; color: #9CA3AF; font-weight: 500; margin-left: auto; }
+    .site-date { font-size: 0.85rem; color: #9CA3AF; font-weight: 500; }
     .site-tagline { width: 100%; font-size: 0.8rem; color: #6B7280; margin-top: 2px; }
     .main { max-width: 960px; margin: 0 auto; padding: 32px 24px 64px; }
     .date-section { margin-bottom: 28px; }
@@ -33,7 +33,7 @@
     .card-news { font-size: 0.83rem; color: #4B5563; line-height: 1.65; margin-bottom: 14px; }
     .implications-header { display: flex; align-items: center; gap: 6px; font-size: 0.7rem; font-weight: 700; color: #9CA3AF; text-transform: uppercase; letter-spacing: 0.07em; margin-bottom: 8px; }
     .implications-list { list-style: none; display: flex; flex-direction: column; gap: 8px; margin-bottom: 16px; }
-  2 .implication-item { display: flex; gap: 8px; align-items: flex-start; }
+    .implication-item { display: flex; gap: 8px; align-items: flex-start; }
     .implication-dot { width: 6px; height: 6px; border-radius: 50%; background: currentColor; margin-top: 5px; flex-shrink: 0; }
     .implication-text { font-size: 0.81rem; line-height: 1.55; }
     .implication-main { font-weight: 600; color: #1F2937; }
@@ -167,6 +167,34 @@
     .empty-state { text-align: center; padding: 80px 24px; color: #9CA3AF; }
     .empty-state p { font-size: 0.9rem; }
     .loading { text-align: center; padding: 80px 24px; color: #9CA3AF; font-size: 0.9rem; }
+  .site-nav {
+    display: flex;
+    gap: 10px;
+    margin-left: auto;
+    flex-wrap: wrap;
+  }
+  .nav-link {
+    display: inline-flex;
+    align-items: center;
+    padding: 8px 12px;
+    border-radius: 999px;
+    border: 1px solid #E5E7EB;
+    background: #FFFFFF;
+    color: #374151;
+    text-decoration: none;
+    font-size: 0.82rem;
+    font-weight: 600;
+    transition: background 0.15s ease, border-color 0.15s ease, color 0.15s ease;
+  }
+  .nav-link:hover {
+    background: #F9FAFB;
+    border-color: #D1D5DB;
+  }
+  .nav-link.active {
+    background: #EFF6FF;
+    border-color: #BFDBFE;
+    color: #1D4ED8;
+  }   
   </style>
 </head>
 <body>
@@ -174,9 +202,9 @@
   <div class="site-header-inner">
     <h1 class="site-title">스타트업 <span>모닝 메모</span></h1>
     <span class="site-date" id="headerDate"></span>
-
+    
     <div class="site-nav">
-      <a href="index.html" class="nav-link active">Morning Memo</a>
+      <a href="/" class="nav-link active">Morning Memo</a>
       <a href="youtube.html" class="nav-link">YouTube</a>
     </div>
 
