@@ -1,0 +1,245 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Beeorbug YouTube</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
+  <style>
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+    body {
+      font-family: 'Inter', 'Apple SD Gothic Neo', 'Noto Sans KR', sans-serif;
+      background: #F0F4F8;
+      color: #1F2937;
+      min-height: 100vh;
+    }
+
+    .site-header {
+      background: #FFFFFF;
+      border-bottom: 1px solid #E5E7EB;
+      padding: 28px 24px 24px;
+    }
+
+    .site-header-inner {
+      max-width: 960px;
+      margin: 0 auto;
+      display: flex;
+      align-items: baseline;
+      gap: 16px;
+      flex-wrap: wrap;
+    }
+
+    .site-title {
+      font-size: 1.5rem;
+      font-weight: 800;
+      letter-spacing: -0.02em;
+      color: #111827;
+    }
+
+    .site-title span {
+      color: #2563EB;
+    }
+
+    .site-nav {
+      display: flex;
+      gap: 10px;
+      margin-left: auto;
+      flex-wrap: wrap;
+    }
+
+    .nav-link {
+      display: inline-flex;
+      align-items: center;
+      padding: 8px 12px;
+      border-radius: 999px;
+      border: 1px solid #E5E7EB;
+      background: #FFFFFF;
+      color: #374151;
+      text-decoration: none;
+      font-size: 0.82rem;
+      font-weight: 600;
+      transition: background 0.15s ease, border-color 0.15s ease, color 0.15s ease;
+    }
+
+    .nav-link:hover {
+      background: #F9FAFB;
+      border-color: #D1D5DB;
+    }
+
+    .nav-link.active {
+      background: #EFF6FF;
+      border-color: #BFDBFE;
+      color: #1D4ED8;
+    }
+
+    .site-tagline {
+      width: 100%;
+      font-size: 0.8rem;
+      color: #6B7280;
+      margin-top: 2px;
+    }
+
+    .main {
+      max-width: 960px;
+      margin: 0 auto;
+      padding: 32px 24px 64px;
+    }
+
+    .hero {
+      margin-bottom: 24px;
+    }
+
+    .hero h2 {
+      font-size: 1.6rem;
+      font-weight: 800;
+      color: #111827;
+      margin-bottom: 10px;
+      letter-spacing: -0.02em;
+    }
+
+    .hero p {
+      color: #4B5563;
+      font-size: 0.95rem;
+      line-height: 1.7;
+      max-width: 760px;
+    }
+
+    .video-grid {
+      display: grid;
+      grid-template-columns: repeat(2, minmax(0, 1fr));
+      gap: 20px;
+    }
+
+    @media (max-width: 767px) {
+      .video-grid {
+        grid-template-columns: 1fr;
+      }
+    }
+
+    .video-card {
+      background: #FFFFFF;
+      border-radius: 14px;
+      border: 1px solid #E5E7EB;
+      box-shadow: 0 1px 3px rgba(0,0,0,0.08), 0 4px 16px rgba(0,0,0,0.04);
+      overflow: hidden;
+    }
+
+    .video-embed {
+      position: relative;
+      width: 100%;
+      aspect-ratio: 16 / 9;
+      background: #E5E7EB;
+    }
+
+    .video-embed iframe {
+      position: absolute;
+      inset: 0;
+      width: 100%;
+      height: 100%;
+      border: 0;
+    }
+
+    .video-body {
+      padding: 16px 18px 18px;
+    }
+
+    .video-title {
+      font-size: 1rem;
+      font-weight: 700;
+      color: #111827;
+      margin-bottom: 8px;
+      line-height: 1.4;
+    }
+
+    .video-desc {
+      font-size: 0.88rem;
+      line-height: 1.65;
+      color: #6B7280;
+    }
+
+    .note-box {
+      margin-top: 28px;
+      background: #FFFFFF;
+      border: 1px solid #E5E7EB;
+      border-radius: 14px;
+      padding: 18px 20px;
+      color: #4B5563;
+      font-size: 0.9rem;
+      line-height: 1.7;
+    }
+
+    .note-box code {
+      background: #F3F4F6;
+      padding: 2px 6px;
+      border-radius: 6px;
+      font-size: 0.85em;
+    }
+  </style>
+</head>
+<body>
+  <header class="site-header">
+    <div class="site-header-inner">
+      <h1 class="site-title">Beeorbug <span>YouTube</span></h1>
+
+      <div class="site-nav">
+        <a href="/" class="nav-link">Morning Memo</a>
+        <a href="/youtube.html" class="nav-link active">YouTube</a>
+      </div>
+
+      <p class="site-tagline">Morning Memo commentary · startup · tech · life science insights</p>
+    </div>
+  </header>
+
+  <main class="main">
+    <section class="hero">
+      <h2>Morning Memo Commentary</h2>
+      <p>
+        Morning Memo에 대한 생각과 해설을 짧은 영상으로 정리하는 공간입니다.
+        아래의 YouTube 영상 2개를 네 영상으로 교체하면 바로 사용할 수 있습니다.
+      </p>
+    </section>
+
+    <section class="video-grid">
+      <article class="video-card">
+        <div class="video-embed">
+          <iframe
+            src="https://www.youtube.com/embed/VIDEO_ID_1"
+            title="YouTube video 1"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+            allowfullscreen>
+          </iframe>
+        </div>
+        <div class="video-body">
+          <div class="video-title">첫 번째 Morning Memo 코멘터리</div>
+          <div class="video-desc">여기에 첫 번째 영상에 대한 한 줄 설명을 넣으면 된다.</div>
+        </div>
+      </article>
+
+      <article class="video-card">
+        <div class="video-embed">
+          <iframe
+            src="https://www.youtube.com/embed/VIDEO_ID_2"
+            title="YouTube video 2"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+            allowfullscreen>
+          </iframe>
+        </div>
+        <div class="video-body">
+          <div class="video-title">두 번째 Morning Memo 코멘터리</div>
+          <div class="video-desc">새 영상이 올라오면 이 카드 블록을 복사해서 추가하면 된다.</div>
+        </div>
+      </article>
+    </section>
+
+    <div class="note-box">
+      유튜브 링크가 예를 들어
+      <code>https://www.youtube.com/watch?v=abc123XYZ</code>
+      이면, 위 코드에서는
+      <code>https://www.youtube.com/embed/abc123XYZ</code>
+      로 바꿔 넣어야 한다.
+    </div>
+  </main>
+</body>
+</html>
