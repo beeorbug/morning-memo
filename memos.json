@@ -1,5 +1,99 @@
 [
   {
+    "date": "2026-05-01",
+    "label": "May 1",
+    "cards": [
+      {
+        "tag": "테크 #1",
+        "icon": "🤖",
+        "accentColor": "#2563EB",
+        "source": "Bloomberg",
+        "headline": "OpenAI를 넘어설 AI의 왕좌 교체\nAnthropic, $9,000억 밸류에 $500억 신규 라운드 검토",
+        "news": "Claude 개발사 Anthropic이 기업가치 $9,000억 이상에서 약 $500억 규모의 신규 펀딩 라운드를 검토 중이라는 보도가 나왔다. 이는 지난 2월 $3,800억에 마무리한 이전 라운드 대비 두 배 이상 상승한 수치이며, 5월 이사회에서 최종 결정이 이루어질 예정이다. 성사될 경우 OpenAI의 현재 기업가치 $8,520억을 넘어서며 세계 최고 가치 AI 스타트업 자리를 탈환하게 된다. 생성형 AI 밸류에이션 경쟁이 공개 시장을 압도하는 수준으로 치닫으면서 규제 당국과 시장 전반에 걸쳐 새로운 파장이 예상된다.",
+        "implications": [
+          {
+            "main": "AI 밸류에이션이 새로운 현실이 됐다",
+            "detail": "단 두 달 만에 기업가치가 2배 이상 뛰는 속도는 이례적이다. 그러나 실제 매출 성장과 엔터프라이즈 계약 규모가 밸류를 일부 뒷받침하고 있다는 점에서 단순 투기와는 구별된다."
+          },
+          {
+            "main": "OpenAI·Anthropic 양강 구도의 고착화",
+            "detail": "두 회사가 전체 파운데이션 모델 투자의 80% 이상을 흡수하면서 Mistral·Cohere 등 경쟁사와의 자본력 격차가 벌어지고 있다. 규모의 자본이 모델 품질 격차를 벌리는 악순환이 구조화되는 국면이다."
+          },
+          {
+            "main": "IPO 시장보다 뜨거운 비공개 AI 라운드",
+            "detail": "상장 없이 $9,000억 밸류를 달성하는 것은 전통적 IPO 경로를 무력화한다. 유동성이 필요한 초기 투자자들을 위한 세컨더리 마켓과 테더 펀드가 새로운 필요로 부상하고 있다."
+          }
+        ]
+      },
+      {
+        "tag": "테크 #2",
+        "icon": "🔄",
+        "accentColor": "#2563EB",
+        "source": "AlleyWatch",
+        "headline": "데이터 웨어하우스가 마케팅 두뇌가 된다\nHightouch, $150M Series D · Goldman Sachs 주도",
+        "news": "Composable CDP·Reverse ETL 플랫폼 Hightouch가 Goldman Sachs 주도의 Series D에서 $1억 5,000만을 조달했다. Reverse ETL은 Snowflake·BigQuery 같은 데이터 웨어하우스의 데이터를 Salesforce·HubSpot 등 마케팅·영업 도구로 직접 연결하는 기술로, 기업이 고객 데이터 플랫폼(CDP)을 별도 구매 없이 기존 인프라에서 바로 구현할 수 있게 한다. AI 시대에도 '데이터 활성화(data activation)' 레이어에 대한 수요가 여전히 강력함을 증명하는 딜이다. Goldman Sachs의 성장 투자 참여는 이 시장이 VC 단계를 넘어 안정적 수익 기반을 확보한 단계임을 시사한다.",
+        "implications": [
+          {
+            "main": "CDP 시장이 통합 인프라로 재편된다",
+            "detail": "별도 CDP를 구축하는 대신 기존 데이터 웨어하우스를 마케팅 허브로 활용하는 'Composable CDP' 아키텍처가 Salesforce CDP·Adobe RT-CDP 같은 전통 솔루션을 대체하는 속도가 빨라지고 있다."
+          },
+          {
+            "main": "AI 에이전트의 연료는 정확한 데이터",
+            "detail": "마케팅·영업 AI 에이전트가 개인화 캠페인을 자율 실행하려면 최신 고객 데이터가 실시간으로 공급되어야 한다. Hightouch 같은 데이터 파이프라인 레이어가 에이전틱 AI의 필수 인프라로 부상하는 이유다."
+          },
+          {
+            "main": "데이터 인프라 후기 펀딩의 회복",
+            "detail": "2022~23년 침체기를 지나 $100M+ 데이터 인프라 라운드가 다시 등장하고 있다. AI 도입이 기업 데이터 정비 수요를 폭발적으로 끌어올린 덕분에 이 카테고리 전반의 밸류에이션이 리레이팅되는 국면이다."
+          }
+        ]
+      },
+      {
+        "tag": "테크 #3",
+        "icon": "⚡",
+        "accentColor": "#2563EB",
+        "source": "AlleyWatch",
+        "headline": "Sequoia가 베팅한 AI 병렬 워크플로우 플랫폼\nParallel, $100M Series B 마감",
+        "news": "AI 워크플로우 자동화 스타트업 Parallel이 Sequoia Capital 주도의 Series B에서 $1억을 조달했다. Parallel은 복잡한 비즈니스 프로세스를 여러 AI 에이전트가 동시에 병렬 처리할 수 있도록 오케스트레이션하는 플랫폼으로, 순차적 단일 에이전트 방식 대비 작업 완료 속도를 대폭 단축한다. Series B 단계에서 $100M 규모가 점차 표준화되는 흐름은 AI 인프라 레이어에 대한 투자 사이클이 단기화되고 있음을 보여준다. Sequoia가 에이전틱 AI 오케스트레이션 영역에 직접 베팅한 것은 이 카테고리가 향후 엔터프라이즈 소프트웨어 스택의 핵심 레이어가 될 것이라는 강력한 신호다.",
+        "implications": [
+          {
+            "main": "멀티 에이전트 오케스트레이션이 다음 인프라 전쟁터",
+            "detail": "단일 AI 에이전트로 처리할 수 없는 복잡한 엔터프라이즈 워크플로우를 위해 에이전트 간 병렬 협업·자원 배분·오류 복구를 관리하는 오케스트레이션 레이어의 수요가 빠르게 커지고 있다."
+          },
+          {
+            "main": "Series B $100M이 AI 인프라의 새 기준점",
+            "detail": "과거 Series B 평균이 $30~50M이었다면 AI 인프라 레이어에서는 $100M이 새로운 정상 범위로 자리잡고 있다. 이는 시장 규모와 성장 속도에 대한 VC들의 기대치가 그만큼 상향 조정됐음을 뜻한다."
+          },
+          {
+            "main": "Sequoia의 에이전틱 AI 포트폴리오 강화",
+            "detail": "Sequoia는 이미 Harvey·Glean·Sierra 등 버티컬 AI 에이전트에 투자해온 가운데, Parallel 투자로 에이전트를 실행하는 인프라 레이어까지 포트폴리오를 수직 확장했다. 스택 전반에 걸친 AI 인프라 패키징 전략이 명확해지고 있다."
+          }
+        ]
+      },
+      {
+        "tag": "라이프사이언스 #1",
+        "icon": "🧬",
+        "accentColor": "#059669",
+        "source": "AlleyWatch",
+        "headline": "CAR-T를 체내에서 직접 만든다\nVivacta Biotechnology, $50M+ Series A · OrbiMed·Eisai 참여",
+        "news": "인비보(in vivo) CAR-T 세포치료제 개발사 Vivacta Biotechnology가 Loyal Valley Capital와 Decheng Capital 공동 주도의 Series A/A+ 라운드에서 $5,000만 이상을 조달했으며 OrbiMed, Eisai Innovation, Hankang이 참여했다. 리드 에셋 GT801은 자체 개발한 'Fleuron' 폴리머 나노입자를 통해 CAR를 코딩하는 유전자를 체내에 직접 전달해 T세포를 환자 몸 안에서 바로 CAR-T로 전환하는 방식을 취한다. 기존 ex vivo CAR-T의 수주 소요 제조 공정을 완전히 제거해 혈액암·자가면역 질환 환자에 대한 접근성과 속도를 혁신할 수 있다는 점에서 주목받고 있다. 글로벌 임상 진입 자금으로 활용될 이번 라운드는 인비보 CAR-T 카테고리로의 자본 이동을 상징하는 딜이다.",
+        "implications": [
+          {
+            "main": "인비보 CAR-T가 차세대 세포치료의 주류 경쟁으로 부상",
+            "detail": "Intellia의 in vivo CRISPR Phase 3 성공과 맞물려 체내 유전자·세포 편집이 실제 치료로 구현되는 흐름이 가속되고 있다. ex vivo 제조의 물류·비용 장벽을 제거한 인비보 방식은 세포치료제의 보급 범위를 획기적으로 넓힐 수 있다."
+          },
+          {
+            "main": "나노입자 전달체가 유전자치료의 핵심 모듈로",
+            "detail": "AAV 바이러스 벡터의 면역원성·용량 제한 문제를 회피하는 지질 나노입자(LNP)·폴리머 나노입자 플랫폼이 mRNA 백신 이후 치료용 유전자 전달의 표준 경쟁으로 빠르게 확산되고 있다."
+          },
+          {
+            "main": "아시아 자본이 인비보 CAR-T에 선제 진입",
+            "detail": "Loyal Valley(홍콩), Decheng(글로벌 헬스케어 VC), Eisai Innovation(일본)의 공동 주도는 아시아 제약·바이오 자본이 미국 초기 세포치료 플랫폼을 선점하려는 의지를 보여준다. 중국·일본의 고령화와 혈액암 치료 수요가 이 관심을 구조적으로 뒷받침한다."
+          }
+        ]
+      }
+    ]
+  },
+  {
     "date": "2026-04-30",
     "label": "Apr 30",
     "cards": [
