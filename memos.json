@@ -1,5 +1,103 @@
 [
   {
+    "date": "2026-05-14",
+    "dateKo": "2026년 5월 14일",
+    "cards": [
+      {
+        "tag": "테크 #1",
+        "company": "Anduril",
+        "icon": "🛡️",
+        "accentColor": "#2563EB",
+        "headline": "소프트웨어 중심 방산 스타트업의 이정표, 기업가치 $610억 달성\nAnduril, Thrive·a16z 주도 $50억 Series H 펀딩 완료",
+        "news": "자율 방산 시스템 스타트업 Anduril이 Thrive Capital·Andreessen Horowitz 주도로 역대 최대 규모 방산 벤처 라운드인 $50억 Series H를 마무리하며 기업가치 $610억에 도달했다. 2025년 매출이 $22억으로 전년 대비 두 배 성장했으며, Lattice AI 플랫폼 기반의 주요 미군 계약을 잇따라 수주하고 있다. 소프트웨어 중심 방산 스타트업 모델이 전통 방산 대기업과 직접 경쟁할 수 있음을 입증한 이정표로, VC의 방산 테크 투자 가속화를 예고한다.",
+        "implications": [
+          {
+            "main": "소프트웨어 방산 기업이 하드웨어 방산 대기업의 벨류에이션을 추월하기 시작했다",
+            "detail": "Anduril의 $610억 밸류는 전통 방산 대기업 L3Harris($20억)나 Leidos($200억)를 훨씬 웃돌며, 소프트웨어·AI 중심 방산 모델이 자본시장에서 완전히 다른 멀티플을 받는 시대가 열렸음을 보여준다."
+          },
+          {
+            "main": "방산 테크가 딥테크 VC의 새로운 핵심 카테고리로 자리잡았다",
+            "detail": "Thrive Capital·a16z의 대규모 방산 베팅은 디펜스 테크가 일부 특수 펀드의 영역을 넘어 메인스트림 VC 포트폴리오의 핵심 자산이 됐음을 의미하며, 경쟁사 및 후발 투자자들의 진입을 가속화할 것이다."
+          },
+          {
+            "main": "AI 기반 자율 시스템이 현대전의 인프라 레이어가 되고 있다",
+            "detail": "Lattice AI 플랫폼이 다영역 자율 무기체계를 통합 관제하는 '방산 OS'로 자리잡으면서, 미래 군사력이 병력 수가 아닌 자율 시스템의 품질과 규모로 결정되는 구조 변화가 가속화되고 있다."
+          }
+        ],
+        "source": "TechStartups"
+      },
+      {
+        "tag": "테크 #2",
+        "company": "Fractile",
+        "icon": "⚡",
+        "accentColor": "#7C3AED",
+        "headline": "AI 추론 병목 해소 전용 칩·시스템 개발, 독립 인프라 카테고리로 부상\nFractile, Accel·Founders Fund·Conviction 주도 $2.2억 Series B 펀딩",
+        "news": "AI 추론(inference)에 특화된 칩과 시스템을 개발하는 Fractile이 Accel·Founders Fund·Conviction 등으로부터 $2.2억 Series B 펀딩을 유치했다. 대형 언어모델에서 추론 단계가 AI 수익의 핵심 엔진이 되면서 지연 시간 단축이 전략적 병목으로 부상하고 있다. 투자자들이 추론 인프라를 학습 인프라와 대등한 독립적 프론티어 카테고리로 바라보기 시작했다는 신호다.",
+        "implications": [
+          {
+            "main": "AI 경제의 수익 창출 지점이 학습에서 추론으로 이동하고 있다",
+            "detail": "ChatGPT·Claude 등 AI 서비스의 매출 대부분이 추론 API 호출에서 발생하는 구조가 굳어지면서, 추론 효율을 높이는 칩·시스템이 AI 인프라 투자의 핵심 대상으로 부상하고 있다."
+          },
+          {
+            "main": "NVIDIA 독점 구조에 균열이 생기는 추론 특화 칩 레이어가 열리고 있다",
+            "detail": "학습용 GPU에서 NVIDIA의 지배력이 공고한 반면, 추론은 지연 시간·에너지 효율·단위 비용 최적화가 학습과 다른 아키텍처를 요구해 전용 칩 스타트업에 실질적 진입 기회를 제공한다."
+          },
+          {
+            "main": "추론 인프라 경쟁이 클라우드 하이퍼스케일러의 다음 투자 격전지가 된다",
+            "detail": "AWS·Google·Microsoft가 자체 추론 칩(Trainium·TPU·Maia)을 개발하는 동시에 Fractile 같은 스타트업에 대한 전략적 투자·파트너십도 병행하면서, 추론 인프라 레이어의 다극화가 가속화될 전망이다."
+          }
+        ],
+        "source": "TechStartups"
+      },
+      {
+        "tag": "생명과학 #1",
+        "company": "Isomorphic Labs",
+        "icon": "🧬",
+        "accentColor": "#059669",
+        "headline": "AlphaFold 기반 AI 신약 설계, 빅파마 파트너십 통해 임상 단계로 진화\nIsomorphic Labs, Thrive·UK AI펀드·GV 참여 $21억 Series B 펀딩 완료",
+        "news": "Google DeepMind 스핀아웃 Isomorphic Labs가 Thrive Capital 주도, UK 국부 AI 펀드·Abu Dhabi MGX·GV·Temasek 참여로 $21억 Series B 펀딩을 완료하며 총 누적 자본 $27억을 달성했다. 노벨상 수상 AlphaFold를 기반으로 한 AI 신약 설계 엔진(IsoDDE)을 고도화하고, Novartis·Lilly·J&J와의 파트너십을 통해 임상 파이프라인 진입을 가속화할 계획이다. AI 신약 발굴이 컴퓨터 기반 실험실을 넘어 실제 임상 단계로 진화하는 속도가 눈에 띄게 빨라지고 있다.",
+        "implications": [
+          {
+            "main": "AI 신약 발굴이 '약속'에서 '임상 실증' 단계로 전환점을 맞이했다",
+            "detail": "수년간 AI 신약 발굴 스타트업들이 실험실 단계에 머물렀던 반면, Isomorphic Labs는 Novartis·Lilly·J&J 파트너십을 통해 실제 임상 파이프라인으로 연결되는 경로를 구축하면서 AI 신약의 임상적 가치 입증에 가장 근접한 플레이어가 됐다."
+          },
+          {
+            "main": "국부펀드·소버린 웰스의 AI 바이오 베팅이 글로벌 제약 R&D 지형을 재편한다",
+            "detail": "UK 국부 AI 펀드와 Abu Dhabi MGX의 참여는 AI 신약 플랫폼이 국가 전략 자산으로 분류되기 시작했음을 의미하며, 향후 국가 주도 제약 R&D 클러스터 형성과 특허권 분쟁의 새로운 지정학적 변수가 될 수 있다."
+          },
+          {
+            "main": "DeepMind 기술 자산의 상업화 모델이 AI 랩 스핀아웃의 새 표준을 제시한다",
+            "detail": "Isomorphic Labs는 학술·연구 조직의 기초 AI를 독립 상업 벤처로 분리해 빅파마와 파트너십 수익을 창출하는 구조를 검증하면서, 다른 AI 연구 기관들의 스핀아웃 전략에 강력한 레퍼런스 모델을 제공하고 있다."
+          }
+        ],
+        "source": "Fierce Biotech"
+      },
+      {
+        "tag": "생명과학 #2",
+        "company": "Forus",
+        "icon": "🏥",
+        "accentColor": "#0D9488",
+        "headline": "처방→치료 경로 AI 최적화로 유니콘 등극, 기업가치 $10억 돌파\nForus, Thrive·GC·Accel·Bain 주도 $1.6억 Series B 펀딩 완료",
+        "news": "의사·약국·보험사·바이오파마를 AI로 연결해 환자의 처방 실행 속도를 높이는 Forus가 Thrive Capital·General Catalyst·Accel·Bain Capital Ventures 주도로 $1.6억 Series B 펀딩을 완료하며 기업가치 $10억을 돌파했다. 전국 50개 주 수천 개 클리닉에서 수백만 환자를 지원하며 연간 매출 $5,000만 이상을 목표로 하고 있다. 임상 결정과 실제 치료 시작 사이의 운영적 병목을 AI로 해소하는 헬스케어 인프라 투자가 본격적으로 주목받고 있다.",
+        "implications": [
+          {
+            "main": "신약 개발보다 '처방 실행' 병목 해소가 더 빠른 환자 가치 창출 경로가 될 수 있다",
+            "detail": "FDA 승인을 받은 치료제도 실제 환자에게 도달하기까지 보험 사전 승인·약국 재고·환자 교육 등 복잡한 장벽이 있는데, Forus처럼 이 경로를 AI로 자동화하면 기존 신약의 실질적 치료 접근성을 획기적으로 높일 수 있다."
+          },
+          {
+            "main": "헬스케어 AI의 가치 포착이 임상 영역에서 운영 영역으로 확장되고 있다",
+            "detail": "영상 진단·신약 발굴 등 임상 AI에 집중됐던 투자가 청구·사전 승인·약국 조정 등 운영 워크플로우로 이동하면서, 헬스케어 AI의 수익화 경로가 다층화되고 TAM이 확장되고 있다."
+          },
+          {
+            "main": "빅파마의 처방 데이터 접근 전략이 Forus 같은 네트워크 플랫폼으로 재편될 수 있다",
+            "detail": "처방-약국-보험을 연결하는 플랫폼이 수백만 환자의 처방 여정 데이터를 축적하면, 이는 빅파마의 마케팅·시장 접근 전략과 직접 연동되는 전략적 자산이 되어 파트너십·M&A 타깃이 될 가능성이 높다."
+          }
+        ],
+        "source": "TechStartups"
+      }
+    ]
+  },
+  {
     "date": "2026-05-11",
     "dateKo": "2026년 5월 11일",
     "cards": [
