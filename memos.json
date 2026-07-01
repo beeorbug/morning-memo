@@ -1,5 +1,103 @@
 [
   {
+    "date": "2026-06-30",
+    "dateKo": "2026년 6월 30일",
+    "cards": [
+      {
+        "tag": "테크",
+        "company": "8090 Labs",
+        "icon": "💻",
+        "headline": "Chamath, 기업용 AI 코딩 에이전트 창업 후 CEO 직접 취임\n$135M Series A, Salesforce Ventures 주도",
+        "news": "All-In 팟캐스트 투자자 Chamath Palihapitiya가 창업한 기업용 AI 코딩 에이전트 스타트업 8090 Labs가 Salesforce Ventures 주도로 $135M Series A 펀딩을 완료했다. WndrCo(Jeffrey Katzenberg), Craft Ventures(David Sacks) 등이 참여했으며, Chamath는 이사회 멤버에서 CEO로 직접 전환을 선언했다. AI 코딩 도구 시장에서 기업용 프로덕션급 소프트웨어에 특화한 포지셔닝으로, 주요 VC들의 기업용 AI 코딩 투자 열기가 여전히 뜨겁다는 신호다.",
+        "implications": [
+          {
+            "main": "Chamath의 직접 경영 전환이 보내는 신호",
+            "detail": "VC로 알려진 Chamath가 CEO로 직접 취임한 것은 이 시장에 대한 강한 확신과 함께, 빠르게 움직이는 AI 코딩 시장에서 창업자 주도 리더십이 더 유리하다는 판단을 반영한다."
+          },
+          {
+            "main": "기업용 AI 코딩의 새로운 격전지",
+            "detail": "Cursor·GitHub Copilot이 개인 개발자 시장을 겨냥하는 동안, 8090 Labs는 엔터프라이즈 프로덕션 환경에 특화해 차별화를 시도한다. 기업용 AI 코딩은 보안·감사·통합 요건이 엄격해 별도 시장으로 성장할 가능성이 크다."
+          },
+          {
+            "main": "실리콘밸리 인맥 네트워크의 펀딩 파워",
+            "detail": "All-In 팟캐스트 멤버들(Chamath, David Sacks)과 WndrCo(Katzenberg) 등 실리콘밸리 핵심 네트워크가 한 라운드에 집결한 것은 이 스타트업이 기술력뿐 아니라 관계 자본에서도 강력한 기반을 갖고 있음을 보여준다."
+          }
+        ],
+        "source": "TechCrunch",
+        "accentColor": "#2563EB"
+      },
+      {
+        "tag": "테크",
+        "company": "Arena",
+        "icon": "🏆",
+        "headline": "AI 모델 리더보드, 상업화 8개월 만에 ARR $100M 달성\n1,000만 건 사용자 평가 기반 AI 평가 플랫폼",
+        "news": "UC 버클리 연구프로젝트에서 출발한 Arena(구 LMArena)가 기업용 AI 평가 서비스 출시 8개월 만에 ARR $100M을 달성했다. 올 1월 $150M Series A 당시 ARR이 $30M이었으나 6개월 만에 3배 이상 성장한 것이다. 1,000만 건 이상의 사용자 평가를 통한 AI 모델 성능 리더보드를 기반으로 Scale AI·Mercor와 AI 후훈련 데이터 시장에서 경쟁 중이다.",
+        "implications": [
+          {
+            "main": "AI 모델 평가가 핵심 인프라로 정착",
+            "detail": "AI 모델 수가 폭발적으로 늘어나면서 '어떤 모델이 더 나은가'를 신뢰할 수 있는 방식으로 측정하는 평가 인프라의 가치가 급상승하고 있다. Arena는 이 시장의 사실상 표준 플랫폼으로 자리잡고 있다."
+          },
+          {
+            "main": "학술 연구에서 $100M ARR 기업으로의 전환",
+            "detail": "UC 버클리 연구프로젝트였던 플랫폼이 8개월 만에 $100M ARR에 도달한 것은 AI 인프라 시장의 성장 속도와 함께, 학술 기반 스타트업의 상업화 잠재력이 얼마나 폭발적일 수 있는지를 보여주는 사례다."
+          },
+          {
+            "main": "AI 후훈련 데이터 시장의 차별화 경쟁",
+            "detail": "Scale AI 같은 대형 데이터 레이블링 플랫폼과 달리, Arena는 실제 사용자가 자발적으로 평가한 방대한 인간 선호도 데이터를 보유해 AI 후훈련 데이터 시장에서 독특한 경쟁 우위를 갖는다."
+          }
+        ],
+        "source": "TechCrunch",
+        "accentColor": "#7C3AED"
+      },
+      {
+        "tag": "테크",
+        "company": "Pocket",
+        "icon": "🎙️",
+        "headline": "스마트폰 뒷면 부착 AI 녹음기, 13만 개 판매\n$11M 펀딩, 구독 없이 무제한 전사",
+        "news": "YC 배치 스타트업 Pocket이 신용카드 크기의 AI 녹음·전사 기기를 스마트폰 뒷면에 부착하는 $129 제품으로 출시 이후 13만 개 이상을 판매했다. Accel·YC·ElevenLabs CEO Mati Staniszewski로부터 $11M을 유치했으며, 구독료 없이 무제한 녹음·전사를 제공해 법률가·의사·건설 현장 등 오프라인 전문직에 특화했다.",
+        "implications": [
+          {
+            "main": "구독 피로 시대의 하드웨어 + 무제한 모델",
+            "detail": "Otter.ai 등 AI 녹음 앱들이 구독 모델로 수익을 내는 동안, Pocket은 일회성 하드웨어 구매로 무제한 전사를 제공해 구독 피로가 높은 전문직 사용자의 저항을 낮추는 전략을 택했다."
+          },
+          {
+            "main": "오프라인 전문직 AI 도구의 미개척 시장",
+            "detail": "스마트폰 앱이 작동하기 어려운 오프라인 현장(법정, 수술실, 건설 현장)에서 별도 하드웨어가 제공하는 신뢰성과 편의성은 앱 기반 경쟁사가 쉽게 따라오기 어려운 차별점이 된다."
+          },
+          {
+            "main": "ElevenLabs CEO 개인 투자의 의미",
+            "detail": "음성 AI 선도기업 ElevenLabs의 CEO가 개인적으로 투자했다는 것은 오프라인 음성 전사 하드웨어가 음성 AI 생태계의 중요한 접점이 될 것이라는 업계 전문가의 확신을 반영한다."
+          }
+        ],
+        "source": "TechCrunch",
+        "accentColor": "#D97706"
+      },
+      {
+        "tag": "테크",
+        "company": "Tesla",
+        "icon": "🚘",
+        "headline": "Trump 행정부, AV 브레이크 페달 의무 폐지 제안\n규제 완화가 Tesla FSD에 여는 기회",
+        "news": "Trump 행정부가 자율주행차 브레이크 페달 의무 요건 폐지를 제안하면서 Tesla FSD에 유리한 규제 환경이 조성될 전망이다. Waymo가 자체 플릿을 늘리고 Uber와 협력 구도가 재편되는 상황에서, 규제 완화가 Tesla의 Cybercab 출시 타임라인을 앞당길 수 있다는 전망이 나온다. 로보택시 시장의 기술·규제·플랫폼 3중 경쟁이 새 국면을 맞고 있다.",
+        "implications": [
+          {
+            "main": "규제 완화가 Tesla에 주는 비대칭적 수혜",
+            "detail": "LiDAR 없는 카메라 전용 접근법을 고수하는 Tesla에게 브레이크 페달 의무 폐지는 Cybercab 출시 규제 장벽 중 하나를 제거하는 의미를 갖는다. Waymo 등 LiDAR 탑재 경쟁사 대비 Tesla의 차별적 이점이 될 수 있다."
+          },
+          {
+            "main": "자율주행 규제 완화의 이중적 의미",
+            "detail": "안전 규제 완화는 로보택시 시장의 진입 속도를 높이지만 동시에 안전 사고 발생 시 법적·정치적 반발을 키울 수 있다. 텍사스 사망 사고로 NHTSA 조사를 받는 Tesla 입장에서는 기회와 리스크가 공존하는 양날의 검이다."
+          },
+          {
+            "main": "플랫폼 경쟁의 규제 차원 부상",
+            "detail": "Waymo와 Tesla의 기술 경쟁이 이제 규제 환경 조성 능력, 즉 로비와 정책 접근성 경쟁으로 확장되고 있다. 정치적 연결망을 가진 Musk의 Tesla가 이 차원에서 구조적 유리함을 갖는다는 분석이 나온다."
+          }
+        ],
+        "source": "TechCrunch",
+        "accentColor": "#0891B2"
+      }
+    ]
+  },
+  {
     "date": "2026-06-29",
     "dateKo": "2026년 6월 29일",
     "cards": [
