@@ -1,5 +1,103 @@
 [
   {
+    "date": "2026-07-03",
+    "dateKo": "2026년 7월 3일",
+    "cards": [
+      {
+        "tag": "AI 클라우드",
+        "company": "Together AI",
+        "icon": "☁️",
+        "headline": "오픈소스 AI 클라우드\n기업가치 $83억 달성",
+        "news": "오픈소스 AI 모델 호스팅 전문 플랫폼 Together AI가 Aramco Ventures·Vista·General Catalyst·Nvidia 등이 참여한 $8억 Series C를 완료하며 기업가치 $83억, 연간 예약 매출 $11.5억을 달성했다. Cursor·Cognition·Decagon 등 AI 네이티브 스타트업들이 핵심 고객이다.",
+        "implications": [
+          {
+            "main": "오픈소스 AI 인프라에 자본 집중",
+            "detail": "대형 폐쇄형 모델 대신 오픈소스 모델을 선택하는 기업들이 급증하며 Together AI 같은 호스팅 플레이어가 수십억 달러 규모로 성장하고 있다."
+          },
+          {
+            "main": "AI 네오클라우드의 부상",
+            "detail": "AWS·Azure·GCP의 AI 클라우드 독점에 오픈소스 특화 플랫폼들이 도전장을 내밀며 기업 AI 인프라 경쟁이 다층화되고 있다."
+          },
+          {
+            "main": "ARR $11.5억의 상업적 검증",
+            "detail": "모델 연구가 아닌 실질적 매출로 가치를 입증하는 AI 인프라 레이어가 투자자들의 핵심 관심사로 부상하고 있다."
+          }
+        ],
+        "source": "TechCrunch",
+        "accentColor": "#2563EB"
+      },
+      {
+        "tag": "방산 테크",
+        "company": "Quantum Systems",
+        "icon": "🚁",
+        "headline": "유럽 최대 방산 벤처 $1.2B\n우크라이나 실전 검증 드론",
+        "news": "독일의 드론·자율시스템 스타트업 Quantum Systems가 Blackstone·Airbus·Advent 주도로 $1.2B Series D를 완료하며 밸류에이션이 $8B으로 두 배 도약했다. 우크라이나에서 1만9,000회 이상의 실전 임무를 통해 수익성과 기술력을 동시에 입증했다.",
+        "implications": [
+          {
+            "main": "실전 검증이 방산 스타트업의 핵심 자산",
+            "detail": "우크라이나 실전 1만9,000회라는 데이터는 어떤 스펙 문서보다 강력한 설득력을 가지며, 교차 투자자들의 대규모 참여를 이끌었다."
+          },
+          {
+            "main": "유럽 방산 스타트업의 레거시 대체",
+            "detail": "NATO의 방산 지출 확대와 맞물려 기존 군수 계약 업체를 대체할 차세대 공급망으로 드론 스타트업들이 급부상하고 있다."
+          },
+          {
+            "main": "Blackstone의 방산 포트폴리오 확장",
+            "detail": "PE 거인 Blackstone이 방산 스타트업에 직접 참여하면서 전통 방산과 테크 벤처의 자본 흐름이 하나로 합쳐지고 있다."
+          }
+        ],
+        "source": "TechStartups",
+        "accentColor": "#7C3AED"
+      },
+      {
+        "tag": "영상 AI",
+        "company": "TwelveLabs",
+        "icon": "🎬",
+        "headline": "영상 AI 분석 $1억 Series B\nAWS 전략 파트너십 체결",
+        "news": "NEA·Naver Ventures 공동 주도로 $1억 Series B를 완료한 TwelveLabs에 Amazon이 전략 투자자로 참여하며 AWS가 선호 클라우드로 선정됐다. 생성이 아닌 검색·분석에 집중하는 '영상 지식 AI'로 기업의 방대한 영상 아카이브를 쿼리 가능한 데이터로 전환한다.",
+        "implications": [
+          {
+            "main": "영상 데이터가 기업의 핵심 자산으로",
+            "detail": "수년간 쌓인 기업 영상 아카이브가 AI 검색으로 활성화되면서 텍스트 데이터와 같은 구조화된 비즈니스 인텔리전스로 변환되고 있다."
+          },
+          {
+            "main": "AWS의 전략 투자로 클라우드 락인 효과",
+            "detail": "Amazon이 단순 고객이 아닌 전략 투자자로 참여한 것은 TwelveLabs의 영상 AI 기술이 AWS AI 서비스 포트폴리오의 핵심 레이어로 통합될 가능성을 시사한다."
+          },
+          {
+            "main": "한국계 AI 스타트업의 글로벌 입지 강화",
+            "detail": "Naver Ventures가 참여하고 AWS 파트너십을 확보한 TwelveLabs는 한국계 AI 스타트업 중 글로벌 엔터프라이즈 시장 공략에 가장 선명한 행보를 보이고 있다."
+          }
+        ],
+        "source": "TechStartups",
+        "accentColor": "#D97706"
+      },
+      {
+        "tag": "양자 컴퓨팅",
+        "company": "Qolab",
+        "icon": "⚛️",
+        "headline": "초전도 양자 컴퓨팅 $5,420만\n캘리포니아대 기금이 리드",
+        "news": "캐나다 몬트리올 기반 Qolab이 UC Investments(캘리포니아대 투자기금) 주도로 $5,420만 Series B를 완료했다. 고충실도 큐비트 제어 전자공학과 대형 양자 칩 개발에 자금을 투입하며, 대학 투자기관이 양자 스타트업의 리드 투자자로 직접 나선 것이 이례적이다.",
+        "implications": [
+          {
+            "main": "대학 기관 자본의 딥테크 직접 투자 확대",
+            "detail": "기존 VC 대신 대학 기금이 리드 투자자로 나선 것은 장기 시계열의 기초과학 투자에서 딥테크 스타트업과 학계의 경계가 허물어지고 있음을 보여준다."
+          },
+          {
+            "main": "양자 컴퓨팅 투자 재가열",
+            "detail": "IBM·Google의 새 양자 로드맵 발표와 맞물려 양자 컴퓨팅 생태계에 다시 자본이 몰리며 2026년 딥테크 투자의 새 사이클이 시작되고 있다."
+          },
+          {
+            "main": "큐비트 제어 전자공학이 핵심 병목",
+            "detail": "양자 컴퓨터의 실용화를 가로막는 핵심 난제 중 하나인 큐비트 제어의 정밀도·확장성을 해결하는 레이어가 투자자들의 집중 관심사로 부상하고 있다."
+          }
+        ],
+        "source": "TechStartups",
+        "accentColor": "#0891B2"
+      }
+    ]
+  },
+  {
     "date": "2026-07-02",
     "dateKo": "2026년 7월 2일",
     "cards": [
