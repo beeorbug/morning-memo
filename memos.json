@@ -1,5 +1,103 @@
 [
   {
+    "date": "2026-07-06",
+    "dateKo": "2026년 7월 6일",
+    "cards": [
+      {
+        "tag": "스마트 글라스",
+        "company": "Even Realities",
+        "icon": "👓",
+        "headline": "프라이버시 보호형 스마트 글라스\n밸류에이션 $10억 달성",
+        "news": "선전 기반 Even Realities가 Meituan·Tencent 주도로 $1.5억 프리시리즈B 펀딩을 완료하며 밸류에이션 $10억을 달성했다. 카메라 중심 경쟁사들과 달리 디스플레이 우선 방식의 프라이버시 보호형 스마트 글라스를 선보이며 차별화된 포지셔닝으로 중국 빅테크의 투자를 이끌어냈다.",
+        "implications": [
+          {
+            "main": "카메라 없는 스마트 글라스의 반격",
+            "detail": "Meta Ray-Ban의 카메라 내장 글라스가 프라이버시 우려를 낳는 가운데, 디스플레이 정보 전달에 집중하는 Even Realities는 차별화된 시장 포지셔닝으로 소비자와 투자자 모두의 관심을 끌고 있다."
+          },
+          {
+            "main": "중국 빅테크의 웨어러블 투자 본격화",
+            "detail": "Meituan·Tencent가 스마트 글라스 스타트업에 대형 투자를 단행하며 중국 빅테크의 차세대 컴퓨팅 플랫폼 경쟁이 웨어러블 영역으로 확장되고 있다."
+          },
+          {
+            "main": "AR 웨어러블 시장의 재편",
+            "detail": "Apple Vision Pro의 고가 전략과 Meta Ray-Ban의 대중화 전략 사이에서 프라이버시와 실용성을 모두 갖춘 중간 포지션의 새로운 카테고리가 형성되고 있다."
+          }
+        ],
+        "source": "TechCrunch",
+        "accentColor": "#2563EB"
+      },
+      {
+        "tag": "휴머노이드 로봇",
+        "company": "Agility Robotics",
+        "icon": "🤖",
+        "headline": "휴머노이드 로봇 최초 나스닥 상장\nSPAC 합병 $25억 밸류에이션",
+        "news": "오리건 세일럼 소재 Agility Robotics가 Churchill Capital Corp XI와 SPAC 합병으로 $25억 밸류에이션 나스닥 상장을 추진한다. $6.2억 이상 조달이 예정된 이번 상장은 휴머노이드 로봇 업계 최초의 순수 로보틱스 상장사 탄생을 의미한다. CEO는 가정용 로봇 상용화는 아직 시기상조라고 선을 그었다.",
+        "implications": [
+          {
+            "main": "휴머노이드 로봇 투자 열풍의 시장 검증",
+            "detail": "Figure·Physical Intelligence·1X 등 수십 개 스타트업이 비공개 펀딩을 받는 가운데, Agility가 공개 시장에서 투자자들의 검증을 받는 것은 섹터 전체의 투자 가치를 가늠하는 리트머스 시험이 된다."
+          },
+          {
+            "main": "SPAC의 딥테크 상장 수단 부활",
+            "detail": "전통 IPO보다 빠른 자본 조달이 가능한 SPAC이 장기 투자를 필요로 하는 로보틱스·딥테크 기업들의 공개 시장 진입 경로로 다시 주목받고 있다."
+          },
+          {
+            "main": "산업용 로봇 먼저, 가정용은 나중",
+            "detail": "CEO가 가정용 로봇을 시기상조로 선을 그은 것은 Amazon 물류센터 배포 등 산업용 시장에서 먼저 수익성을 입증하겠다는 현실적 전략을 시사한다."
+          }
+        ],
+        "source": "TechCrunch",
+        "accentColor": "#7C3AED"
+      },
+      {
+        "tag": "AI 반도체",
+        "company": "Positron",
+        "icon": "⚡",
+        "headline": "Nvidia 대항 AI 추론 특화 칩\n$2.34억 Series B·$10.6억 밸류",
+        "news": "2024년 설립된 Positron이 ARENA Private Wealth·Valor Equity Partners 주도 $2.34억 Series B 펀딩으로 밸류에이션 $10.6억을 달성했다. Nvidia AI 칩에 도전하는 추론 전용 커스텀 하드웨어를 개발 중이며 누적 펀딩은 $3.1억을 돌파했다.",
+        "implications": [
+          {
+            "main": "AI 추론 특화 칩의 투자 붐 지속",
+            "detail": "Etched·Groq·Cerebras에 이어 Positron까지 추론 특화 칩 스타트업에 대형 자본이 지속적으로 유입되며, 훈련보다 추론 시장이 더 큰 상업적 기회임을 투자자들이 확인하고 있다."
+          },
+          {
+            "main": "창업 2년 만에 유니콘 직전 밸류",
+            "detail": "2024년 창업해 불과 2년 만에 $10억대 밸류를 달성한 것은 AI 반도체 시장에 대한 투자자들의 극도로 높은 기대감을 반영한다."
+          },
+          {
+            "main": "Nvidia 독점 균열 압력 가중",
+            "detail": "추론 전용 스타트업들이 총 수십억 달러의 자금을 조달하며 Nvidia의 GPU 독점 구조에 도전하는 생태계가 형성되고 있어, Nvidia의 추론 시장 방어 전략이 주목된다."
+          }
+        ],
+        "source": "TechCrunch",
+        "accentColor": "#D97706"
+      },
+      {
+        "tag": "AI 신약개발",
+        "company": "Anthropic",
+        "icon": "💊",
+        "headline": "Amodei \"AI 신약개발 혁신\n수년 더 걸릴 것\" 신중론",
+        "news": "Dario Amodei Anthropic CEO는 AI가 생물학 연구를 가속화할 잠재력은 인정하면서도, 생물학 고유의 복잡성과 느린 실험 주기 때문에 실질적 변화는 수년이 더 걸릴 것이라고 밝혔다. 최근 Anthropic이 자체 신약 개발에 뛰어든 가운데 나온 발언이라 더 주목된다.",
+        "implications": [
+          {
+            "main": "AI 기업이 직접 제약에 뛰어드는 역설",
+            "detail": "Anthropic이 자체 신약 개발에 나서면서도 CEO 본인은 신중론을 유지하는 것은, 장기 투자로서의 가치는 인정하되 단기 과열 기대를 경계하는 내부 리얼리즘을 보여준다."
+          },
+          {
+            "main": "생물학의 '느린 주기'는 AI도 못 바꾼다",
+            "detail": "소프트웨어와 달리 생물학 실험은 세포 배양·동물 모델·임상시험 등 물리적 시간이 필수적으로 소요되며, AI가 이 병목을 단기간에 해소하기는 어렵다는 업계 공감대가 형성되고 있다."
+          },
+          {
+            "main": "AI 신약개발 투자 과열에 대한 경보",
+            "detail": "수십억 달러가 AI 신약개발 스타트업에 유입되는 상황에서, 선도 AI 기업 CEO의 신중론은 투자자들에게 단기 기대치를 조정하라는 시장 신호로 읽힐 수 있다."
+          }
+        ],
+        "source": "STAT News",
+        "accentColor": "#059669"
+      }
+    ]
+  },
+  {
     "date": "2026-07-03",
     "dateKo": "2026년 7월 3일",
     "cards": [
