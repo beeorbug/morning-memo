@@ -1,5 +1,103 @@
 [
   {
+    "date": "2026-07-15",
+    "dateKo": "2026년 7월 15일",
+    "cards": [
+      {
+        "tag": "AI 반도체",
+        "company": "TYLsemi",
+        "icon": "🔩",
+        "headline": "칩렛 기반 커스텀 AI 가속기\n개발 비용 50% 절감 목표",
+        "news": "Matter Venture Partners 주도로 $4,300만 펀딩을 유치하며 공식 출범한 TYLsemi가 칩렛 기반 설계로 커스텀 AI 가속기 개발 비용을 최대 50% 절감하는 것을 목표로 한다. XPU 시장 확대로 칩렛 전문 스타트업의 기회가 커지고 있다.",
+        "implications": [
+          {
+            "main": "칩렛이 커스텀 AI 칩의 대중화를 이끈다",
+            "detail": "모놀리식 설계 대신 기능별 칩렛을 조합하는 방식은 개발 비용과 시간을 대폭 줄여, 대형 팹리스 기업 외에도 스타트업이 커스텀 AI 가속기를 설계할 수 있게 만든다."
+          },
+          {
+            "main": "XPU 시장의 파편화가 새 기회 창출",
+            "detail": "Nvidia GPU 외에도 TPU·NPU·FPGA 등 다양한 XPU가 등장하며 특정 워크로드에 최적화된 커스텀 칩 수요가 폭발하고 있으며, TYLsemi는 이 틈새를 정조준한다."
+          },
+          {
+            "main": "칩 설계의 서비스화(CaaS) 트렌드",
+            "detail": "직접 칩을 생산하지 않고 설계·아키텍처를 서비스로 제공하는 모델이 ARM의 성공 이후 더욱 다양화되며, AI 칩 영역에서도 이 패턴이 자리 잡고 있다."
+          }
+        ],
+        "source": "SiliconANGLE",
+        "accentColor": "#2563EB"
+      },
+      {
+        "tag": "건설 로봇",
+        "company": "TerraFirma",
+        "icon": "🏗️",
+        "headline": "전직 SpaceX 엔지니어의\n완전자율 건설 로봇 $1.15억",
+        "news": "전직 SpaceX 엔지니어들이 창업한 TerraFirma가 Kleiner Perkins 주도로 $1.15억 Series A를 유치했다. 완전자율 다중 로봇이 기초공사·벽돌쌓기·콘크리트 타설을 수행하며 AI와 로보틱스가 전통 건설 산업까지 파고들고 있다.",
+        "implications": [
+          {
+            "main": "우주 엔지니어링 노하우가 건설 로봇으로",
+            "detail": "SpaceX의 정밀 제어·자율 시스템 개발 경험이 건설 현장의 반복적·위험한 작업 자동화에 그대로 적용되며, 우주테크 인재의 건설테크 이동이 새로운 혁신을 촉발하고 있다."
+          },
+          {
+            "main": "건설 산업 인력난이 로봇 수요 견인",
+            "detail": "미국 건설 업계는 수십만 명의 인력 부족에 시달리고 있으며, 기초공사와 같은 위험하고 고강도 작업일수록 로봇 자동화의 ROI가 높아 투자자들의 관심이 집중되고 있다."
+          },
+          {
+            "main": "Kleiner Perkins의 딥테크 건설 베팅",
+            "detail": "실리콘밸리 최고 VC 중 하나인 Kleiner Perkins가 건설 로봇에 베팅한 것은 Physical AI가 소프트웨어 AI와 동등한 투자 가치를 인정받기 시작했음을 보여준다."
+          }
+        ],
+        "source": "Tech Startups",
+        "accentColor": "#7C3AED"
+      },
+      {
+        "tag": "AI 신약개발",
+        "company": "Miles Wang 신약재창출",
+        "icon": "🔬",
+        "headline": "OpenAI 출신 연구원 창업\nAI 기존 약물 재창출 $20억 밸류",
+        "news": "OpenAI에서 생물학 연구 가속화 AI를 연구하던 Miles Wang이 퇴사 후 창업에 나서며 Lightspeed 주도로 $2억 펀딩을 논의 중이다. 기존 승인 약물의 새 적응증을 AI로 발굴하는 '신약재창출' 전략으로 밸류에이션 $20억을 인정받고 있다.",
+        "implications": [
+          {
+            "main": "AI 최고 인재들의 신약개발 이동 가속",
+            "detail": "OpenAI·DeepMind·Anthropic 등 최상위 AI 랩 출신 연구자들이 신약개발 스타트업을 창업하거나 이직하는 흐름이 빠르게 확산되며 제약-AI 융합 생태계가 새 국면에 접어들고 있다."
+          },
+          {
+            "main": "신약재창출은 신약 대비 위험-보상 비율이 낮다",
+            "detail": "안전성이 검증된 기존 약물의 새 적응증을 찾는 신약재창출은 임상 실패율과 개발 기간을 크게 줄일 수 있어, AI의 패턴 인식 능력과 결합 시 가장 즉각적인 ROI를 기대할 수 있는 영역이다."
+          },
+          {
+            "main": "Lightspeed의 바이오-AI 포트폴리오 확장",
+            "detail": "테크 중심 VC인 Lightspeed가 AI 신약개발 스타트업에 주도 투자함으로써 테크와 바이오의 경계가 허물어지고 있으며, AI 신약개발을 소프트웨어 투자로 바라보는 시각이 정착되고 있다."
+          }
+        ],
+        "source": "TechCrunch",
+        "accentColor": "#059669"
+      },
+      {
+        "tag": "AI 신약설계",
+        "company": "Chai Discovery",
+        "icon": "💊",
+        "headline": "AI 항체·단백질 신약 설계\n$4억 Series C·밸류 $38억",
+        "news": "Index Ventures·Kleiner Perkins·Sequoia가 참여한 $4억 Series C 펀딩으로 밸류에이션 $38억을 달성한 Chai Discovery가 딥러닝으로 항체·단백질 신약 설계를 가속화한다. Eli Lilly·Pfizer·Novartis와 이미 파트너십을 맺고 있으며 1년 새 세 번째 라운드다.",
+        "implications": [
+          {
+            "main": "1년 3회 라운드가 보여주는 AI 신약 투자 열기",
+            "detail": "1년 안에 세 번의 펀딩을 연속으로 유치한 것은 Chai Discovery의 기술 검증 속도와 AI 신약설계 시장에 대한 투자자들의 극도로 높은 기대감을 동시에 보여준다."
+          },
+          {
+            "main": "빅파마 3사 동시 파트너십의 의미",
+            "detail": "Lilly·Pfizer·Novartis가 동일 스타트업과 파트너십을 맺은 것은 AI 단백질·항체 설계 기술이 이미 실용 단계에 접어들었음을 빅파마가 공식 인정한 것으로 볼 수 있다."
+          },
+          {
+            "main": "Top-tier VC 트리오의 동시 참여",
+            "detail": "Index·Kleiner·Sequoia라는 실리콘밸리 최상위 VC 트리오가 한 바이오테크 라운드에 동시 참여한 것은 AI 신약개발 스타트업이 순수 테크 딜과 동등한 투자 매력을 갖추게 됐음을 시사한다."
+          }
+        ],
+        "source": "Tech Startups",
+        "accentColor": "#0891B2"
+      }
+    ]
+  },
+  {
     "date": "2026-07-07",
     "dateKo": "2026년 7월 7일",
     "cards": [
