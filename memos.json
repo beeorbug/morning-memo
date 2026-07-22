@@ -1,5 +1,103 @@
 [
   {
+    "date": "2026-07-21",
+    "dateKo": "2026년 7월 21일",
+    "cards": [
+      {
+        "tag": "AI 소재 발견",
+        "company": "CuspAI",
+        "icon": "⚗️",
+        "headline": "AI로 신소재를 설계하다\n$4.5억 Series B·밸류 $26억",
+        "news": "영국 케임브리지 기반 CuspAI가 Kleiner Perkins·NEA 주도, Bezos Expeditions·AMD Ventures 참여로 $4.5억 Series B 펀딩을 유치해 기업가치 $26억, 누적 $6.5억 이상을 확보했다. 반도체·배터리·청정에너지용 신소재를 AI로 설계하는 'AI for Science' 분야에서 창업 2년 만의 성과다.",
+        "implications": [
+          {
+            "main": "AI 투자가 모델에서 물리 세계로 이동",
+            "detail": "LLM 인프라 투자 과열이 진정되면서 자본이 반도체·신소재·에너지 등 물리 세계 문제를 AI로 푸는 'AI for Science'로 이동하고 있다. CuspAI의 $26억 밸류는 그 전환의 규모를 보여준다."
+          },
+          {
+            "main": "신소재 발견은 AI가 가장 빠른 ROI를 낼 수 있는 영역",
+            "detail": "기존 소재 발견은 수십 년의 실험이 필요했지만 AI 시뮬레이션은 후보 물질 탐색 속도를 수백 배 높인다. 배터리·반도체 소재의 돌파는 전기차·AI 칩 산업 전체의 판도를 바꿀 수 있다."
+          },
+          {
+            "main": "Kleiner·Bezos의 동시 베팅이 갖는 의미",
+            "detail": "1970년대부터 반도체에 베팅해온 Kleiner Perkins와 Blue Origin으로 우주 물리학에 투자해온 Bezos가 동시에 AI 소재 발견에 베팅한 것은 이 분야가 단순 테마를 넘어 검증 단계에 진입했음을 시사한다."
+          }
+        ],
+        "source": "TechStartups",
+        "accentColor": "#2563EB"
+      },
+      {
+        "tag": "AI 저작권",
+        "company": "Anthropic",
+        "icon": "⚖️",
+        "headline": "역대 최대 AI 저작권 합의\n$15억·도서 48만 권 권당 $3,000",
+        "news": "Claude 학습에 해적판 도서 48만여 권을 사용한 것에 대한 Anthropic의 $15억 저작권 합의가 법원 최종 승인을 받았다. 저자 1인당 권당 약 $3,000를 지급하는 구조로 역대 최대 규모 AI 저작권 배상이다. 구속력 있는 판례는 남기지 않았지만 진행 중인 수십 건 소송의 사실상 기준점이 될 전망이다.",
+        "implications": [
+          {
+            "main": "권당 $3,000가 AI 학습 콘텐츠의 암묵적 시장 가격이 됐다",
+            "detail": "법원 판결이 아닌 합의지만 권당 $3,000라는 숫자가 향후 출판사·언론사·음악사와의 라이선스 협상에서 하한선 역할을 할 가능성이 높다. AI 훈련 데이터의 가격화가 본격화된다."
+          },
+          {
+            "main": "판례 없는 합의는 법적 불확실성을 유지시킨다",
+            "detail": "Anthropic이 책임을 인정하지 않는 조건으로 합의함으로써 '학습에 저작권 데이터를 쓰는 것이 침해인가'라는 핵심 법적 질문은 여전히 미결이다. 다른 AI 기업들에 대한 소송은 계속된다."
+          },
+          {
+            "main": "선제 합의가 규제 리스크 헤지 전략으로 정착",
+            "detail": "Anthropic이 장기 소송 대신 $15억 합의를 택한 것은 법적 불확실성보다 명확한 비용을 선호한다는 신호다. 다른 AI 대형사들도 유사한 선제 합의를 택할 가능성이 높아졌다."
+          }
+        ],
+        "source": "TechCrunch",
+        "accentColor": "#7C3AED"
+      },
+      {
+        "tag": "AI 칩 소프트웨어",
+        "company": "Infinity",
+        "icon": "⚡",
+        "headline": "어떤 AI 칩이든 추론 가능하게\nNvidia 해자를 우회하는 $1,500만 시드",
+        "news": "OpenAI·Anthropic 연구자들이 참여한 $1,500만 시드 펀딩으로 Infinity가 포스트머니 $1억 밸류에이션을 인정받았다. 신생 AI 칩의 추론 배포 소요를 수개월에서 며칠로 단축시키는 소프트웨어로, Nvidia의 CUDA 소프트웨어 해자를 우회할 수 있게 돕는다.",
+        "implications": [
+          {
+            "main": "AI 경쟁의 다음 전장은 '2차 스택'",
+            "detail": "모델과 칩에 대한 투자가 포화되면서 자본이 그 위에 올라가는 추론 미들웨어·오케스트레이션·컴파일러 등 '2차 AI 스택'으로 이동하고 있다. Infinity는 그 흐름의 대표적 베팅이다."
+          },
+          {
+            "main": "Nvidia의 진짜 해자는 칩이 아니라 CUDA 소프트웨어",
+            "detail": "H100·B100의 성능 우위도 중요하지만 Nvidia의 진짜 락인은 10년간 쌓아온 CUDA 생태계다. 비Nvidia 칩을 쉽게 쓸 수 있게 하는 소프트웨어는 이 락인을 직접 공략한다."
+          },
+          {
+            "main": "AI 칩 스타트업의 성공 조건이 바뀐다",
+            "detail": "칩 성능이 아무리 좋아도 소프트웨어 지원이 없으면 채택이 느리다. Infinity 같은 추론 미들웨어가 성숙하면 Intel·AMD·Qualcomm·신생 칩의 기업 채택 속도가 빨라져 Nvidia 의존도를 낮출 수 있다."
+          }
+        ],
+        "source": "TechCrunch",
+        "accentColor": "#D97706"
+      },
+      {
+        "tag": "CRISPR 심혈관",
+        "company": "Scribe Therapeutics",
+        "icon": "🧬",
+        "headline": "CRISPR 심혈관 바이오텍 IPO\nEli Lilly 10.9% 지분·$1억 공모",
+        "news": "Scribe Therapeutics가 주당 $13~15에 720만 주를 공모하며 Nasdaq에 'SCTX'로 상장 예정이다. Eli Lilly가 공모에 참여해 상장 후 10.9%를 확보하고 Sanofi도 $750만 사모 배정에 참여한다. PCSK9 억제 에피제네틱 사일런싱(STX-1150)이 리드 파이프라인으로, 초기 바이오텍 IPO 시장의 시금석이 될 딜이다.",
+        "implications": [
+          {
+            "main": "빅파마의 IPO 공모 직접 참여는 기술 검증 신호",
+            "detail": "Eli Lilly가 단순 투자가 아닌 공모 직접 참여로 10.9% 지분을 확보하는 것은 Scribe의 에피제네틱 플랫폼 기술에 대한 전략적 관심의 표현이다. Sanofi의 추가 사모 참여도 기술 검증을 이중으로 뒷받침한다."
+          },
+          {
+            "main": "에피제네틱 사일런싱은 CRISPR의 다음 단계",
+            "detail": "기존 CRISPR가 유전자를 잘라 영구 편집한다면, 에피제네틱 사일런싱은 유전자를 끄는 방식으로 더 안전하고 가역적인 접근이다. PCSK9를 표적으로 한 심혈관 적응증은 시장 규모와 기술 안전성이 검증되는 최적의 진입점이다."
+          },
+          {
+            "main": "바이오텍 IPO 시장의 재개 신호",
+            "detail": "2025년 바이오텍 IPO 한파 이후 Attovia·Braveheart·Scribe 등이 잇달아 상장을 추진하면서 IPO 창구가 다시 열리고 있다. 빅파마가 공모에 직접 참여하는 구조는 기관 투자자의 추가 신뢰를 이끌어내는 효과도 있다."
+          }
+        ],
+        "source": "Renaissance Capital",
+        "accentColor": "#059669"
+      }
+    ]
+  },
+  {
     "date": "2026-07-17",
     "dateKo": "2026년 7월 17일",
     "cards": [
