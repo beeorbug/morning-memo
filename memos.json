@@ -1,5 +1,103 @@
 [
   {
+    "date": "2026-08-06",
+    "dateKo": "2026년 8월 6일",
+    "cards": [
+      {
+        "tag": "AI 과학 발견",
+        "company": "Discovery Loop",
+        "icon": "🔬",
+        "headline": "Google 최고 AI 연구진, 과학 발견 자동화로 독립\nJeff Dean·Radical·Khosla 초기 펀딩",
+        "news": "Google AI의 상징적 인물 Jeff Dean이 동료 연구진과 함께 Discovery Loop를 창업했다. Radical Ventures와 Khosla Ventures가 초기 펀딩을 공동 주도했으며, AI를 활용한 과학적 발견 자동화가 목표다. 빅테크 AI 연구소에서 독립 스타트업으로의 인재 유출이 최상위 레벨까지 도달했음을 보여주는 사건이다.",
+        "implications": [
+          {
+            "main": "AI 연구 인재의 독립 창업은 다음 AI 혁신이 빅테크 밖에서 나온다는 신호",
+            "detail": "DeepMind 출신들이 Isomorphic Labs를 만들고, OpenAI 출신들이 Anthropic을 설립한 것처럼, Google AI 최고참 Jeff Dean의 독립 창업은 AI 연구의 생산성 프런티어가 대기업 연구소 밖으로 이동하는 구조적 변화를 반영한다. 과학적 발견을 자동화하는 AI for Science 카테고리가 다음 메가 웨이브가 될 수 있다는 내부자 판단이기도 하다."
+          },
+          {
+            "main": "과학적 발견의 자동화는 신약·소재·에너지 R&D 속도를 근본적으로 바꾼다",
+            "detail": "Discovery Loop의 목표인 AI 기반 과학 발견 자동화가 실현되면 실험 설계·가설 생성·결과 분석의 사이클이 수개월에서 수일로 단축된다. Isomorphic Labs의 단백질 구조 예측이 보여주듯, AI가 과학 방법론 자체를 재설계하는 시대가 열리고 있다."
+          },
+          {
+            "main": "Radical·Khosla 공동 주도는 AI for Science에 대한 정상급 VC 베팅의 확인",
+            "detail": "Radical Ventures는 Geoffrey Hinton 등 AI 선구자들과 긴밀한 관계를 맺어온 펀드이고, Khosla는 딥테크 과학 창업에 수십 년간 베팅해왔다. 두 펀드가 같은 딜에 나란히 들어온 것은 Discovery Loop의 기술적 신뢰성과 팀 실행 가능성을 최고 수준으로 평가했다는 의미다."
+          }
+        ],
+        "source": "TechCrunch",
+        "accentColor": "#2563EB"
+      },
+      {
+        "tag": "드론 방어 방산",
+        "company": "Aurelius Systems",
+        "icon": "🛡️",
+        "headline": "레이저로 적대적 드론을 요격한다\nDraper·KAS 리드 $40M Series A",
+        "news": "자율 지향성 에너지 플랫폼 Archimedes로 적대적 드론을 탐지·요격하는 Aurelius Systems가 Draper Associates·KAS Venture Partners 리드로 $40M Series A 펀딩을 완료했다. General Catalyst도 참여했으며 자금은 자체 제조 역량 확대에 투입된다. 드론 군집 위협이 실전화되면서 방산 하드테크가 VC 주류 섹터로 복귀했다.",
+        "implications": [
+          {
+            "main": "드론 위협 실전화가 지향성 에너지 무기를 스타트업 카테고리로 만들었다",
+            "detail": "우크라이나·중동 분쟁에서 소형 FPV 드론 군집이 수억 달러짜리 장갑차를 무력화하는 장면이 반복되면서, 기존 미사일·레이더 체계로는 감당 안 되는 비용-효율 문제가 드러났다. Aurelius 같은 레이저 기반 자율 요격 시스템이 이 공백을 채우는 상업적 해법으로 부상하고 있다."
+          },
+          {
+            "main": "방산 스타트업의 VC 자금 조달은 이제 예외가 아닌 주류",
+            "detail": "a16z American Dynamism, Founders Fund, General Catalyst 등 주요 VC가 방산 하드테크에 공개적으로 자금을 투입하는 흐름이 굳어지고 있다. Aurelius의 General Catalyst 참여는 국방 기술이 소비자 앱이나 SaaS와 동일한 투자 프레임워크로 평가받는 새로운 시대를 보여준다."
+          },
+          {
+            "main": "자체 제조로의 수직 통합은 방산 스타트업의 표준 전략으로 자리잡는다",
+            "detail": "Anduril·Shield AI 등 선행 방산 스타트업들이 자체 생산 역량을 내재화한 것처럼, Aurelius도 이번 자금을 제조 역량 확대에 투입한다. 군사 시스템의 품질·보안·공급망 통제를 위해 수직 통합이 필수가 됐다는 업계 컨센서스가 반영된 전략이다."
+          }
+        ],
+        "source": "TechStartups",
+        "accentColor": "#7C3AED"
+      },
+      {
+        "tag": "mRNA 백신",
+        "company": "Moderna",
+        "icon": "💉",
+        "headline": "세계 최초 mRNA 독감 백신 FDA 승인\nmFLUSIVA, 코로나 너머 계절 질환으로 확장",
+        "news": "Moderna의 mRNA-1010(mFLUSIVA)이 50세 이상 성인 대상으로 세계 최초 mRNA 독감 백신 FDA 승인을 획득했다(50~64세 정식·65세 이상 신속 승인). Moderna 미국 내 4번째 승인 제품이자 mRNA 플랫폼이 코로나를 넘어 계절성 질환으로 확장된 첫 사례다.",
+        "implications": [
+          {
+            "main": "mRNA 플랫폼이 팬데믹 특수를 넘어 계절 백신 시장으로 영구 편입됐다",
+            "detail": "2020년 코로나 백신으로 검증된 mRNA 기술이 독감 백신 승인으로 상시 연간 시장에 진입했다. 전 세계 독감 백신 시장은 연간 $7~8B 규모이며, mRNA 방식이 기존 계란 배양 방식보다 빠른 생산 주기와 높은 변이 대응력을 제공한다면 시장 점유율 전환이 빠르게 일어날 수 있다."
+          },
+          {
+            "main": "콤보 백신(독감+코로나+RSV)으로의 확장이 다음 단계",
+            "detail": "mRNA-1010 승인은 Moderna가 독감·코로나·RSV를 하나의 주사로 예방하는 mRNA 콤보 백신 개발의 발판이 된다. 매년 3개 주사를 맞던 노령 인구가 단일 제제로 해결된다면 환자 순응도와 시스템 효율이 동시에 높아지는 구조적 혁신이다."
+          },
+          {
+            "main": "Sanofi·GSK의 전통 독감 백신 사업에 구조적 위협이 시작됐다",
+            "detail": "기존 독감 백신 시장은 Sanofi·GSK·Pfizer가 지배하는 성숙 시장이었다. mRNA 독감 백신의 등장은 주기적 바이러스 변이 대응에서 mRNA의 속도 우위가 처음으로 상업적 승인에 반영된 사건이다. 기존 업체들의 시장 점유율이 장기적으로 압박받을 가능성이 열렸다."
+          }
+        ],
+        "source": "STAT News",
+        "accentColor": "#059669"
+      },
+      {
+        "tag": "COPD 신약",
+        "company": "Expedition Therapeutics",
+        "icon": "🫁",
+        "headline": "DPP1 저해로 COPD 뿌리 치료 도전\nGeneral Atlantic 참여 Series B 펀딩",
+        "news": "호중구성 염증의 핵심 효소 DPP1을 저해해 COPD(만성폐쇄성폐질환)를 겨냥하는 Expedition Therapeutics가 General Atlantic 참여 Series B 펀딩을 완료했다. 기관지확장증에서 임상 검증된 DPP1 저해 기전을 COPD로 확대 적용하는 전략으로, 명확한 기전과 임상 데이터가 위축된 초기 펀딩 시장에서 자금을 끌어모으고 있다.",
+        "implications": [
+          {
+            "main": "DPP1 저해는 기관지확장증에서 검증된 기전으로 COPD 신약의 유력 후보",
+            "detail": "DPP1은 호중구 세린 프로테아제를 활성화해 폐 조직을 손상시키는 효소다. Insmed의 brensocatib이 기관지확장증에서 DPP1 저해 효과를 임상으로 입증한 이후, 같은 기전을 COPD에 적용하는 개발사들이 주목받고 있다. Expedition은 이 검증된 경로 위에 서 있는 셈이다."
+          },
+          {
+            "main": "COPD는 전 세계 3억 명 환자를 가진 거대 미충족 시장",
+            "detail": "COPD는 전 세계 4번째 사망 원인이며 기존 치료제는 증상 관리에 머물러 있어 근본 치료제가 없다. 연간 $20B 이상의 글로벌 시장 규모에도 Disease-Modifying 치료제는 전무한 상태로, 기전 기반 신약의 진입 공간이 크다."
+          },
+          {
+            "main": "General Atlantic의 참여는 크로스오버 투자자의 임상 성공 가능성 확신 신호",
+            "detail": "General Atlantic은 성장 단계 회사에 집중하는 크로스오버 펀드로, 임상 후기·상장 전 단계 바이오텍에 투자할 때는 임상 성공 가능성에 높은 확신이 있을 때다. 이들의 Series B 참여는 Expedition의 DPP1 COPD 프로그램이 후기 자본을 유치할 수 있는 수준에 이르렀다는 외부 검증이다."
+          }
+        ],
+        "source": "STAT News",
+        "accentColor": "#0891B2"
+      }
+    ]
+  },
+  {
     "date": "2026-08-04",
     "dateKo": "2026년 8월 4일",
     "cards": [
